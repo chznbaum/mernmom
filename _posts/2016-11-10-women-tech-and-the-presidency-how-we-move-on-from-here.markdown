@@ -33,9 +33,7 @@ For those of us with boys, it is past time for us to have conversations with the
 
 For those with girls, I am struck by the words of Secretary Clinton as she conceded the election:
 
-> To all of the little girls who are watching this, never doubt that you are valuable and powerful and deserving of every chance and opportunity in the world to pursue and achieve your own dreams.
-
-- Hillary Clinton
+> To all of the little girls who are watching this, never doubt that you are valuable and powerful and deserving of every chance and opportunity in the world to pursue and achieve your own dreams. - Hillary Clinton
 
 Listen to your children and talk with them often. Let them feel free to share their thoughts, concerns, and fears with you.
 
@@ -69,6 +67,4 @@ In two years, we will have another opportunity to directly impact our national r
 
 Ultimately, while our path forward may oscillate more than we would like, in the long run, America will continue to improve itself and get better at standing up for the ideals we hold dear. In the meantime, we need to be there for those who may not be okay over the next four years. And while the majority of Americans may disagree with President-Elect Trump - according to the popular vote - we cannot treat him the way his followers treated President Obama. Treat his supporters with respect, compassion, and empathy. Hope for President-Elect Trump's success, as a president's success is its nation's success. Hold both accountable, but do not deliberately and needlessly disrespect and sabotage them.
 
-> Believe it or not, I still believe in the good that's in people, so I still have hope that things will not be as terrifying as they sound.
-
-- [Sara Soueidan](https://sarasoueidan.com)
+> Believe it or not, I still believe in the good that's in people, so I still have hope that things will not be as terrifying as they sound. - [Sara Soueidan](https://sarasoueidan.com)
