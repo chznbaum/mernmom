@@ -29,9 +29,6 @@ set :deploy_to, "/home/chazona/www"
 # Default value for default_env is {}
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
 
-# Default value for :scm is :git
-set :scm, :git
-
 # Default value for :log_level is :debug
 set :log_level, :debug
 

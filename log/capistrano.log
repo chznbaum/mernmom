@@ -1,0 +1,6 @@
+# Logfile created on 2017-01-04 19:32:42 -0500 by logger.rb/47272
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-01-04 19:32:42 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [2e1fad48] Running ~/.rvm/bin/rvm version as chazona@45.55.222.217
+ DEBUG [2e1fad48] Command: ~/.rvm/bin/rvm version
