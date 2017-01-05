@@ -10,6 +10,10 @@ ruby RUBY_VERSION
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem "jekyll", "3.3.1"
+gem "capistrano"
+gem "capistrano-rvm"
+gem "capistrano-bundler"
+gem "rvm1-capistrano3", require: false
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.0"
