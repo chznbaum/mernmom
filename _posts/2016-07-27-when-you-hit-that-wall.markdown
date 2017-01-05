@@ -2,7 +2,9 @@
 layout: post
 title: "When You Hit That Wall"
 date: 2016-07-27 09:17:00 -0500
-categories: code log
+image: https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/hitthewall.jpg
+categories:
+- code log
 ---
 I keep having to remind myself that I’ve only actually been studying on [Free Code Camp](https://freecodecamp.com) for ten days, in between taking care of kids and other daily necessities.
 

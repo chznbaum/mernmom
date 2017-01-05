@@ -24,6 +24,7 @@ description: > # this means to ignore newlines until "baseurl:"
   this JavaScript journey.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: /:year/:month/:day/:slug.html
 twitter_username: chznbaum
 github_username:  chznbaum
 

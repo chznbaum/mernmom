@@ -2,7 +2,14 @@
 layout: post
 title: "How to Build a Twitter Bot in Node.js - Part 1"
 date: 2016-10-26 07:00:00 -0500
-categories: tutorials, twitter bot
+image: https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/Screenshot-from-2016-10-27-01-01-59.png
+categories:
+- tutorials
+tags:
+- nodejs
+- npm
+- twit
+- twitter bot
 ---
 When just starting out with Node.js, piecing together a front- and back-end and successfully deploying the app can be a bit intimidating. A great way to get your feet wet working with Node.js and deploying to Heroku without having a front-end to deal with is by making a Twitter bot. Not only are they incredibly fun, but because they're only logic, they make a great stepping stone to bigger projects.
 
