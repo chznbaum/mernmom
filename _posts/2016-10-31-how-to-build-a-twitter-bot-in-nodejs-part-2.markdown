@@ -173,7 +173,7 @@ function tweetIt(txt) { // Function to send tweets
 
 Because of Mom Bot's "personality" she will scan all tweets issued by followers for "bad words" and issue a warning to the user if they occur.  For this, I used the Bad Words module to generate an array of words to check for.
 
-![Mom Bot tweet response to bad words]{{{ site.url }}/assets/bad_word_screen.jpg)
+![Mom Bot tweet response to bad words]{{ site.url }}/assets/bad_word_screen.jpg)
 
 In addition, she also scans @replies sent to her to see if they have any phrases set as unfollow-triggers. If she receives one, she will send a response that she will unfollow the user.
 
