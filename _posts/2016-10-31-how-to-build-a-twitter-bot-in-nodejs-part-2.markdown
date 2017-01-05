@@ -4,9 +4,9 @@ title: "How to Build a Twitter Bot in Node.js - Part 2"
 date: 2016-10-31 07:00:00 -0500
 categories: tutorials, twitter bot
 ---
-This is the second part of a two-part series on creating a Twitter bot. In the [first part](http://45.55.222.215/2016-10-26-how-to-build-a-twitter-bot-in-nodejs-part-1), we reviewed setting up Twitter credentials for the bot, ensured we have Node and NPM available, and began working with our directory structure and Twitter API module. In this second part, we'll go over using the API module to tweet, respond to tweets, follow and unfollow, and learn how to make the bot your own. Let's get started!
+This is the second part of a two-part series on creating a Twitter bot. In the [first part](https://raw.githubusercontent.com/chznbaum/mernmom/master/2016-10-26-how-to-build-a-twitter-bot-in-nodejs-part-1), we reviewed setting up Twitter credentials for the bot, ensured we have Node and NPM available, and began working with our directory structure and Twitter API module. In this second part, we'll go over using the API module to tweet, respond to tweets, follow and unfollow, and learn how to make the bot your own. Let's get started!
 
-** Tweeting **
+## Tweeting ##
 
 At this point, we are beginning to use the Twit module to create tweets. Reviewing the [Twit documentation](https://github.com/ttezel/twit), we can see that the first example uses a post method to create a new status - this is how we post a tweet.
 
@@ -39,7 +39,7 @@ This is a fairly basic tweet, as it only provides whatever text we select ahead 
 
 In order to be able to have any kind of interactive Twitter bot, though, we need to use some event listeners and respond accordingly. Let's check out our first one.
 
-** Responding to Tweets **
+## Responding to Tweets ##
 
 The first event we're going to listen for is the "tweet" event, which will trigger a function to handle any processing that will take place. Our code will look like this:
 
@@ -177,13 +177,13 @@ Because of Mom Bot's "personality" she will scan all tweets issued by followers 
 
 In addition, she also scans @replies sent to her to see if they have any phrases set as unfollow-triggers. If she receives one, she will send a response that she will unfollow the user.
 
-![Mom Bot Unfollow Tweet](http://45.55.222.215/assets/unfollow_screen.jpg)
+![Mom Bot Unfollow Tweet](https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/unfollow_screen.jpg)
 
 Of course, in my actual bot's code, I have a function randomizing the responses Mom Bot gives so that she's not constantly repeating herself. If you would like an example of the full code, you can always check out the source [here](https://github.com/chznbaum/the-mom-bot).
 
 Note, she's not actually unfollowing them here. To do that, we're going to need to learn just a bit more.
 
-** Follow and Unfollow on Command **
+## Follow and Unfollow on Command ##
 
 Now if we check the Twit documentation again, it has a couple of examples of using post methods to create and destroy friendships. Those are the methods we need, as those will enable the bot to follow and unfollow users.
 
@@ -255,7 +255,7 @@ function tweetIt(txt) { // Function to send tweets
 
 So here we've added an event listener to listen for follow events, which will trigger our `followed()` function. From there we check that the user doing the follow wasn't the bot, similar to how we checked tweets. If the event passes our check, the bot will follow the user and print an error if one is thrown.
 
-![Mom Bot follow tweet](http://45.55.222.215/assets/follow_screen.jpg)
+![Mom Bot follow tweet](https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/follow_screen.jpg)
 
 Let's use what we've learned to actually unfollow the users we tweeted that we would earlier:
 
@@ -330,7 +330,7 @@ function tweetIt(txt) { // Function to send tweets
 
 Now at least the bot is being honest!
 
-** Make it Your Own **
+## Make it Your Own ##
 
 Now the bot can follow and unfollow independently, it can respond to tweets, and you can create its own tweets fairly easily. But it's not terribly creative at this point since it basically follows what my bot does, and even then, it doesn't do quite as much.
 
@@ -536,9 +536,9 @@ function randomSaying(sayingList) { // Function to randomize the expression to u
 }
 {% endhighlight %}
 
-![Mom Bot cheer up tweet](http://45.55.222.215/assets/cheer_up_screen.jpg)
+![Mom Bot cheer up tweet](https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/cheer_up_screen.jpg)
 
-![Mom Bot proud tweet](http://45.55.222.215/assets/proud_screen.jpg)
+![Mom Bot proud tweet](https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/proud_screen.jpg)
 
 Go ahead and take some time to think about what kinds of things you would like your bot to do and how you might implement that logic.
 

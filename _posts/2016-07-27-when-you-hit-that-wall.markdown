@@ -11,14 +11,14 @@ Sometimes, it’s to ensure I don’t get lured into a sense of hubris. I’ll b
 ![Free Code Camp Activity Chart: 302 challenges completed](http://chazonabaum.com/images/freecodecampprogress.PNG)
 Figure 1. Seriously? In ten days?
 
-** Riding That High **
+## Riding That High ##
 
 With HTML, CSS, Bootstrap — even some JavaScript — all coming together and flowing in a way that makes sense, it’s easy to keep chasing the high of another finished project instead of diversifying study materials to ensure an understanding of the fundamentals. By the time I got through a challenge to build a random quote generator, I was so ready to whip some code into submission. I’d just come off a set of fascinating algorithms and had now completed my first dynamic web project of any kind.
 
 <pre class="codepen" data-height="734" data-type="result" data-href="EyLoOv" data-user="chznbaum" data-safe="true"> <code> </code> <a href="https://codepen.io/chznbaum/pen/EyLoOv/">Random Quote Machine</a> </pre>
 <script src="https://production-assets.codepen.io/assets/embed/ei.js"> </script>
 
-** Crash And Burn **
+## Crash And Burn ##
 
 And I had been racing through tasks and challenges as quickly as I could access them. As I started getting into some of the more intermediate challenges, I started to encounter more and more JavaScript concepts that I had never heard of. I managed well with skillful Google queries and an eye for scanning [documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference). But when I reached the first challenge where I needed to use an outside API to create a weather app, everything locked up.
 
@@ -27,7 +27,7 @@ As I poured through documentation about the recommended API, I could not make se
 ![Useless! Empty! Brain!](http://chazonabaum.com/images/uselessemptybrain.gif)
 Big Hero 6 Captures my sentiment
 
-** Regroup and Diversify **
+## Regroup and Diversify ##
 
 I’m still fully committed to the path [Free Code Camp](https://freecodecamp.com) lays out to full-stack proficiency, and I am dedicated to completing it within one year, despite the challenges of finding time with two small children running around. As someone who has been interested in learning code for quite some time but — seeing the explosion of languages being sought — had no idea where to start, I this is the single most useful individual tool I’ve come across.
 
