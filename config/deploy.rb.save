@@ -1,16 +1,14 @@
 # config valid only for current version of Capistrano
 lock "3.7.1"
 
-set :rvm1_ruby_version, "ruby-2.3.3"
-
-set :application, "mernmom"
-set :repo_url, "https://github.com/chznbaum/mernmom.git"
+set :application, "blog"
+set :repo_urlchznbaum@example.com:me/my_repo.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
-set :deploy_to, "/home/chazona/www"
+# set :deploy_to, "/var/www/my_app_name"
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
@@ -31,34 +29,5 @@ set :deploy_to, "/home/chazona/www"
 # Default value for default_env is {}
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
 
-# Set stages
-set :stages, ["staging", "production"]
-set :default_stage, "production"
-
-# Default value for :log_level is :debug
-set :log_level, :debug
-
 # Default value for keep_releases is 5
-set :keep_releases, 5
-
-namespace :deploy do
-
-  desc "Restart application"
-  task :restart do
-    on roles(:app), in: :sequence, wait: 5 do
-      # Your restart mechanism here, for example:
-      # execute :touch, release_path.join("tmp/restart.txt")
-    end
-  end
-
-  before :restart, :build_public do
-    on roles(:app) do
-      within release_path do
-        execute "/home/chazona/.rvm/gems/ruby-2.3.3/wrappers/jekyll", "build --destination public"
-      end
-    end
-  end
-
-  after :publishing, :restart
-
-end
+# set :keep_releases, 5
