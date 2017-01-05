@@ -4,7 +4,7 @@ title: "How to Build a Twitter Bot in Node.js - Part 2"
 date: 2016-10-31 07:00:00 -0500
 categories: tutorials, twitter bot
 ---
-This is the second part of a two-part series on creating a Twitter bot. In the [first part]({{ site.baseurl }}{% post_url 2016-10-26-how-to-build-a-twitter-bot-in-nodejs-part-1 %}), we reviewed setting up Twitter credentials for the bot, ensured we have Node and NPM available, and began working with our directory structure and Twitter API module. In this second part, we'll go over using the API module to tweet, respond to tweets, follow and unfollow, and learn how to make the bot your own. Let's get started!
+This is the second part of a two-part series on creating a Twitter bot. In the [first part](http://45.55.222.215/2016-10-26-how-to-build-a-twitter-bot-in-nodejs-part-1), we reviewed setting up Twitter credentials for the bot, ensured we have Node and NPM available, and began working with our directory structure and Twitter API module. In this second part, we'll go over using the API module to tweet, respond to tweets, follow and unfollow, and learn how to make the bot your own. Let's get started!
 
 ** Tweeting **
 
@@ -131,7 +131,7 @@ var unfollow_words_list = [
   */
   'leave me alone'
 ]
-for (var k = 0; k &lt; bad_words_list.length; k++ {
+for (var k = 0; k < bad_words_list.length; k++ {
   bad_words_list[k] = bad_words_list[k].toLowerCase();
 }
 var T = new Twit(config);
@@ -144,13 +144,13 @@ function tweetEvent(eventMsg) { // Function to run on each tweet in the stream
   if (from !== bot_screen_name) { // If bot didn't send the tweet
     text = text.replace(/[^a-zA-Z\s]/gi, '').toLowerCase(); // Remove non-letter characters and transform to lowercase
     var tweet_array = text.split(' '); // Create an array of each word in the tweet
-    for (var i = 0; i &lt; tweet_array.length; i++) { // For each word in the tweet
+    for (var i = 0; i < tweet_array.length; i++) { // For each word in the tweet
       if (bad_words_list.indexOf(tweet_array[i]) != -1) { // If the word is in the bad words list
         tweetIt('@' + from + ' You tweeted a bad word! Mom Bot\'s not mad, she\'s just disappointed...'); // Bot tweets disappointment, example
       }
     }
     if (reply_to !== null &amp;&amp; reply_to === bot_screen_name) { // If the tweet was @reply to bot
-      for (var j = 0; j &lt; unfollow_words_list.length; j++) { // For each word in the tweet
+      for (var j = 0; j < unfollow_words_list.length; j++) { // For each word in the tweet
         if (text.indexOf(unfollow_words_list[j]) != -1) { // If an unfollow expression is in the tweet
           tweetIt('@' + from + ' Ok, I will leave you alone.'); // Tweet an unfollow response, example
         }
@@ -177,7 +177,7 @@ Because of Mom Bot's "personality" she will scan all tweets issued by followers 
 
 In addition, she also scans @replies sent to her to see if they have any phrases set as unfollow-triggers. If she receives one, she will send a response that she will unfollow the user.
 
-![Mom Bot Unfollow Tweet]({{ site.url }}/assets/unfollow_screen.jpg)
+![Mom Bot Unfollow Tweet](http://45.55.222.215/assets/unfollow_screen.jpg)
 
 Of course, in my actual bot's code, I have a function randomizing the responses Mom Bot gives so that she's not constantly repeating herself. If you would like an example of the full code, you can always check out the source [here](https://github.com/chznbaum/the-mom-bot).
 
@@ -255,7 +255,7 @@ function tweetIt(txt) { // Function to send tweets
 
 So here we've added an event listener to listen for follow events, which will trigger our `followed()` function. From there we check that the user doing the follow wasn't the bot, similar to how we checked tweets. If the event passes our check, the bot will follow the user and print an error if one is thrown.
 
-![Mom Bot follow tweet]({{ site.url }}/assets/follow_screen.jpg)
+![Mom Bot follow tweet](http://45.55.222.215/assets/follow_screen.jpg)
 
 Let's use what we've learned to actually unfollow the users we tweeted that we would earlier:
 
@@ -536,9 +536,9 @@ function randomSaying(sayingList) { // Function to randomize the expression to u
 }
 {% endhighlight %}
 
-![Mom Bot cheer up tweet]({{ site.url }}/assets/cheer_up_screen.jpg)
+![Mom Bot cheer up tweet](http://45.55.222.215/assets/cheer_up_screen.jpg)
 
-![Mom Bot proud tweet]({{ site.url }}/assets/proud_screen.jpg)
+![Mom Bot proud tweet](http://45.55.222.215/assets/proud_screen.jpg)
 
 Go ahead and take some time to think about what kinds of things you would like your bot to do and how you might implement that logic.
 

@@ -16,7 +16,7 @@ Figure 1. Seriously? In ten days?
 With HTML, CSS, Bootstrap — even some JavaScript — all coming together and flowing in a way that makes sense, it’s easy to keep chasing the high of another finished project instead of diversifying study materials to ensure an understanding of the fundamentals. By the time I got through a challenge to build a random quote generator, I was so ready to whip some code into submission. I’d just come off a set of fascinating algorithms and had now completed my first dynamic web project of any kind.
 
 <pre class="codepen" data-height="734" data-type="result" data-href="EyLoOv" data-user="chznbaum" data-safe="true"> <code> </code> <a href="https://codepen.io/chznbaum/pen/EyLoOv/">Random Quote Machine</a> </pre>
-<script async="async" src="https://production-assets.codepen.io/assets/embed/ei.js"> </script>
+<script src="https://production-assets.codepen.io/assets/embed/ei.js"> </script>
 
 ** Crash And Burn **
 

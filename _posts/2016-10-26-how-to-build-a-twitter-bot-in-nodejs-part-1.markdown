@@ -8,7 +8,7 @@ When just starting out with Node.js, piecing together a front- and back-end and 
 
 In this two part series, I'll walk you through creating an interactive Twitter bot step by step, with examples from my own bot. My example bot, called [Mom Bot](https://twitter.com/the_mother_bot), follows and unfollows users independently and scans tweets and @replies so it can respond accordingly. The source code and documentation for my bot can be viewed in its entirety [here](https://github.com/chznbaum/the-mom-bot).
 
-For the first part, we'll review setting up Twitter credentials for the bot, ensure we have Node and NPM available, and begin working with our directory structure and Twitter API module. In the [second part]({{ site.baseurl }}{% post_url 2016-10-31-how-to-build-a-twitter-bot-in-nodejs-part-2 %}), we'll go over using the API module to tweet, respond to tweets, follow and unfollow, and learn how to make the bot your own.
+For the first part, we'll review setting up Twitter credentials for the bot, ensure we have Node and NPM available, and begin working with our directory structure and Twitter API module. In the [second part](http://45.55.222.215/2016-10-31-how-to-build-a-twitter-bot-in-nodejs-part-2), we'll go over using the API module to tweet, respond to tweets, follow and unfollow, and learn how to make the bot your own.
 
 ** Getting Set Up on Twitter **
 
@@ -16,21 +16,21 @@ First things first: please don't use your primary Twitter account for this. Ther
 
 Once you've created an account for your bot, head over to the [Twitter Developers](https://dev.twitter.com) page. This is the place for documentation on making all kinds of Twitter apps. In the navigation bar, navigate to "My Apps."
 
-![Twitter Developers Navigation and Header]({{ site.url }}/assets/Screenshot-from-2016-10-27-00-38-04.png)
+![Twitter Developers Navigation and Header](http://45.55.222.215/assets/Screenshot-from-2016-10-27-00-38-04.png)
 
 Log in as your bot if you aren't already, and click to "Create an Application." You can name your application anything you like, but try to keep your name and description relevant to your bot. Your website can be anything; my suggestion is your repository URL for the bot on GitHub. Read and accept the Twitter Developer Agreement and click to "Create your Twitter Application."
 
-![Create an Application Form]({{ site.url }}/assets/create_an_application.jpg)
+![Create an Application Form](http://45.55.222.215/assets/create_an_application.jpg)
 
 From there, you'll see several tabs of information and settings. The only one that matters to us for this bot is the "Keys and Access Tokens" tab.
 
-![Keys and Access Tokens Tab]({{ site.url }}/assets/keys_and_access_tab.jpg)
+![Keys and Access Tokens Tab](http://45.55.222.215/assets/keys_and_access_tab.jpg)
 
 Go ahead and generate your Access Token and Access Token Secret, and then leave this window open; we'll need the four codes on this page in just a few minutes.
 
 ** Node.js and NPM **
 
-![Node JS]({{ site.url }}/assets/Node.js_logo.png)
+![Node JS](http://45.55.222.215/assets/Node.js_logo.png)
 
 *** Linux ***
 
@@ -38,7 +38,7 @@ For those of you running a Linux box, the great news is that your distro may com
 
     $ nodejs
 
-If it comes preinstalled, your terminal should become a console prompt, shown by the `&gt;`  symbol. You can work with JavaScript in this console just like you would in your browser's console. Go ahead and check it out! When you're ready to exit the console, simply type `.exit` or hit the `Ctrl` and `C` buttons twice.
+If it comes preinstalled, your terminal should become a console prompt, shown by the `>`  symbol. You can work with JavaScript in this console just like you would in your browser's console. Go ahead and check it out! When you're ready to exit the console, simply type `.exit` or hit the `Ctrl` and `C` buttons twice.
 
 You could also just as easily check for a man page about nodejs:
 
@@ -98,7 +98,7 @@ Before we start writing the logic, though, we're going to need to include a libr
 
 That `--save` term will include the module in the dependencies of your `package.json` file.
 
-![NPM Twit Module]({{ site.url }}/assets/Screenshot-from-2016-10-27-01-00-43.png)
+![NPM Twit Module](http://45.55.222.215/assets/Screenshot-from-2016-10-27-01-00-43.png)
 
 Of course, in order for your bot to do anything with a Twitter account, it needs to authenticate. You'll need to create a `config.js` file to hold your API keys because you *don't* want them to be in your main logic file. Remember the Twitter screen with the four codes? Enter them in the `config.js` file like this:
 
@@ -122,4 +122,4 @@ var stream = T.stream('user'); // Set up user stream
 
 The last two lines get you set up to start listening to your account's Twitter stream for events like tweets and follows.
 
-When you're ready to start piecing this bot together, go ahead to [Part 2]({{ site.baseurl }}{% post_url 2016-10-31-how-to-build-a-twitter-bot-in-nodejs-part-2 %}). In the meantime, feel free to get familiar with the Twitter API module we're using, [Twit](https://github.com/ttezel/twit).
+When you're ready to start piecing this bot together, go ahead to [Part 2](http://45.55.222.215/2016-10-31-how-to-build-a-twitter-bot-in-nodejs-part-2). In the meantime, feel free to get familiar with the Twitter API module we're using, [Twit](https://github.com/ttezel/twit).
