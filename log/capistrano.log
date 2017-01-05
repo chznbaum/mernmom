@@ -1548,3 +1548,139 @@
   INFO [6ccd4603] Running /usr/bin/env echo "Branch master (at 52e8035eeec77bdce7c0a96bdd12fe0de3ec35aa) deployed as release 20170105170801 by chazona" >> /home/chazona/www/revisions.log as chazona@45.55.222.215
  DEBUG [6ccd4603] Command: cd /home/chazona/www/releases && /usr/bin/env echo "Branch master (at 52e8035eeec77bdce7c0a96bdd12fe0de3ec35aa) deployed as release 20170105170801 by chazona" >> /home/chazona/www/revisions.log
   INFO [6ccd4603] Finished in 0.038 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-01-05 12:20:40 -0500 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [49844f2d] Running ~/.rvm/bin/rvm version as chazona@45.55.222.215
+ DEBUG [49844f2d] Command: ~/.rvm/bin/rvm version
+ DEBUG [49844f2d] 	rvm 1.28.0 (latest) by Wayne E. Seguin <wayneeseguin@gmail.com>, Michal Papis <mpapis@gmail.com> [https://rvm.io/]
+ DEBUG [49844f2d] Finished in 1.151 seconds with exit status 0 (successful).
+ DEBUG [869f9a68] Running ~/.rvm/bin/rvm current as chazona@45.55.222.215
+ DEBUG [869f9a68] Command: ~/.rvm/bin/rvm current
+ DEBUG [869f9a68] 	ruby-2.3.3
+ DEBUG [869f9a68] Finished in 1.022 seconds with exit status 0 (successful).
+ DEBUG [c7dfbc29] Running ~/.rvm/bin/rvm default do ruby --version as chazona@45.55.222.215
+ DEBUG [c7dfbc29] Command: ~/.rvm/bin/rvm default do ruby --version
+ DEBUG [c7dfbc29] 	Regenerating ruby-2.3.3 wrappers
+ DEBUG [c7dfbc29] 	........
+ DEBUG [c7dfbc29] 	ruby 2.3.3p222 (2016-11-21 revision 56859) [i686-linux]
+ DEBUG [c7dfbc29] Finished in 2.047 seconds with exit status 0 (successful).
+  INFO [825a2912] Running /usr/bin/env mkdir -p /home/chazona/www/rvm1scripts/ as chazona@45.55.222.215
+ DEBUG [825a2912] Command: /usr/bin/env mkdir -p /home/chazona/www/rvm1scripts/
+  INFO [825a2912] Finished in 0.586 seconds with exit status 0 (successful).
+ DEBUG Uploading /home/chazona/.rvm/gems/ruby-2.3.3/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 0.0%
+  INFO Uploading /home/chazona/.rvm/gems/ruby-2.3.3/gems/rvm1-capistrano3-1.4.0/script/rvm-auto.sh 100.0%
+  INFO [f6b79cda] Running /usr/bin/env chmod +x /home/chazona/www/rvm1scripts/rvm-auto.sh as chazona@45.55.222.215
+ DEBUG [f6b79cda] Command: /usr/bin/env chmod +x /home/chazona/www/rvm1scripts/rvm-auto.sh
+  INFO [f6b79cda] Finished in 0.041 seconds with exit status 0 (successful).
+  INFO [c07f497d] Running /usr/bin/env mkdir -p /tmp as chazona@45.55.222.215
+ DEBUG [c07f497d] Command: /usr/bin/env mkdir -p /tmp
+  INFO [c07f497d] Finished in 0.040 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-mernmom-production-chazona.sh 0.0%
+  INFO Uploading /tmp/git-ssh-mernmom-production-chazona.sh 100.0%
+  INFO [53abaedc] Running /usr/bin/env chmod 700 /tmp/git-ssh-mernmom-production-chazona.sh as chazona@45.55.222.215
+ DEBUG [53abaedc] Command: /usr/bin/env chmod 700 /tmp/git-ssh-mernmom-production-chazona.sh
+  INFO [53abaedc] Finished in 0.038 seconds with exit status 0 (successful).
+  INFO [3e496b5d] Running /usr/bin/env git ls-remote --heads https://github.com/chznbaum/mernmom.git as chazona@45.55.222.215
+ DEBUG [3e496b5d] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-mernmom-production-chazona.sh" ; /usr/bin/env git ls-remote --heads https://github.com/chznbaum/mernmom.git )
+ DEBUG [3e496b5d] 	fb4676302e6114d4a4eabe25869acc9335fd2611	refs/heads/master
+  INFO [3e496b5d] Finished in 0.339 seconds with exit status 0 (successful).
+  INFO [59048e51] Running /usr/bin/env mkdir -p /home/chazona/www/shared /home/chazona/www/releases as chazona@45.55.222.215
+ DEBUG [59048e51] Command: /usr/bin/env mkdir -p /home/chazona/www/shared /home/chazona/www/releases
+  INFO [59048e51] Finished in 0.048 seconds with exit status 0 (successful).
+ DEBUG [24337b57] Running [ -f /home/chazona/www/current/REVISION ] as chazona@45.55.222.215
+ DEBUG [24337b57] Command: [ -f /home/chazona/www/current/REVISION ]
+ DEBUG [24337b57] Finished in 0.039 seconds with exit status 0 (successful).
+ DEBUG [9e1f3c42] Running /usr/bin/env cat /home/chazona/www/current/REVISION 2>/dev/null as chazona@45.55.222.215
+ DEBUG [9e1f3c42] Command: /usr/bin/env cat /home/chazona/www/current/REVISION 2>/dev/null
+ DEBUG [9e1f3c42] 	52e8035eeec77bdce7c0a96bdd12fe0de3ec35aa
+ DEBUG [9e1f3c42] Finished in 0.042 seconds with exit status 0 (successful).
+ DEBUG [fabe2571] Running [ -f /home/chazona/www/repo/HEAD ] as chazona@45.55.222.215
+ DEBUG [fabe2571] Command: [ -f /home/chazona/www/repo/HEAD ]
+ DEBUG [fabe2571] Finished in 0.040 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/chazona/www/repo
+ DEBUG [55585970] Running if test ! -d /home/chazona/www/repo; then echo "Directory does not exist '/home/chazona/www/repo'" 1>&2; false; fi as chazona@45.55.222.215
+ DEBUG [55585970] Command: if test ! -d /home/chazona/www/repo; then echo "Directory does not exist '/home/chazona/www/repo'" 1>&2; false; fi
+ DEBUG [55585970] Finished in 0.042 seconds with exit status 0 (successful).
+  INFO [09c473df] Running /usr/bin/env git remote update --prune as chazona@45.55.222.215
+ DEBUG [09c473df] Command: cd /home/chazona/www/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-mernmom-production-chazona.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [09c473df] 	Fetching origin
+ DEBUG [09c473df] 	From https://github.com/chznbaum/mernmom
+ DEBUG [09c473df] 	   52e8035..fb46763  master     -> master
+  INFO [09c473df] Finished in 0.395 seconds with exit status 0 (successful).
+ DEBUG [c34df81a] Running if test ! -d /home/chazona/www/repo; then echo "Directory does not exist '/home/chazona/www/repo'" 1>&2; false; fi as chazona@45.55.222.215
+ DEBUG [c34df81a] Command: if test ! -d /home/chazona/www/repo; then echo "Directory does not exist '/home/chazona/www/repo'" 1>&2; false; fi
+ DEBUG [c34df81a] Finished in 0.044 seconds with exit status 0 (successful).
+  INFO [76d5737e] Running /usr/bin/env mkdir -p /home/chazona/www/releases/20170105172047 as chazona@45.55.222.215
+ DEBUG [76d5737e] Command: cd /home/chazona/www/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-mernmom-production-chazona.sh" ; /usr/bin/env mkdir -p /home/chazona/www/releases/20170105172047 )
+  INFO [76d5737e] Finished in 0.050 seconds with exit status 0 (successful).
+  INFO [27050a3b] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/chazona/www/releases/20170105172047 as chazona@45.55.222.215
+ DEBUG [27050a3b] Command: cd /home/chazona/www/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-mernmom-production-chazona.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/chazona/www/releases/20170105172047 )
+  INFO [27050a3b] Finished in 0.313 seconds with exit status 0 (successful).
+ DEBUG [fd6f33eb] Running if test ! -d /home/chazona/www/repo; then echo "Directory does not exist '/home/chazona/www/repo'" 1>&2; false; fi as chazona@45.55.222.215
+ DEBUG [fd6f33eb] Command: if test ! -d /home/chazona/www/repo; then echo "Directory does not exist '/home/chazona/www/repo'" 1>&2; false; fi
+ DEBUG [fd6f33eb] Finished in 0.045 seconds with exit status 0 (successful).
+ DEBUG [b995e81e] Running /usr/bin/env git rev-list --max-count=1 master as chazona@45.55.222.215
+ DEBUG [b995e81e] Command: cd /home/chazona/www/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-mernmom-production-chazona.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [b995e81e] 	fb4676302e6114d4a4eabe25869acc9335fd2611
+ DEBUG [b995e81e] Finished in 0.044 seconds with exit status 0 (successful).
+ DEBUG [5c871d87] Running if test ! -d /home/chazona/www/releases/20170105172047; then echo "Directory does not exist '/home/chazona/www/releases/20170105172047'" 1>&2; false; fi as chazona@45.55.222.215
+ DEBUG [5c871d87] Command: if test ! -d /home/chazona/www/releases/20170105172047; then echo "Directory does not exist '/home/chazona/www/releases/20170105172047'" 1>&2; false; fi
+ DEBUG [5c871d87] Finished in 0.038 seconds with exit status 0 (successful).
+  INFO [d7ea2dd6] Running /usr/bin/env echo "fb4676302e6114d4a4eabe25869acc9335fd2611" >> REVISION as chazona@45.55.222.215
+ DEBUG [d7ea2dd6] Command: cd /home/chazona/www/releases/20170105172047 && /usr/bin/env echo "fb4676302e6114d4a4eabe25869acc9335fd2611" >> REVISION
+  INFO [d7ea2dd6] Finished in 0.044 seconds with exit status 0 (successful).
+ DEBUG [c821d3af] Running if test ! -d /home/chazona/www/releases/20170105172047; then echo "Directory does not exist '/home/chazona/www/releases/20170105172047'" 1>&2; false; fi as chazona@45.55.222.215
+ DEBUG [c821d3af] Command: if test ! -d /home/chazona/www/releases/20170105172047; then echo "Directory does not exist '/home/chazona/www/releases/20170105172047'" 1>&2; false; fi
+ DEBUG [c821d3af] Finished in 0.039 seconds with exit status 0 (successful).
+ DEBUG [a204fe4a] Running /home/chazona/www/rvm1scripts/rvm-auto.sh ruby-2.3.3 ~/.rvm/bin/rvm default do bundle check --path /home/chazona/www/shared/bundle as chazona@45.55.222.215
+ DEBUG [a204fe4a] Command: cd /home/chazona/www/releases/20170105172047 && /home/chazona/www/rvm1scripts/rvm-auto.sh ruby-2.3.3 ~/.rvm/bin/rvm default do bundle check --path /home/chazona/www/shared/bundle
+ DEBUG [a204fe4a] 	Regenerating ruby-2.3.3 wrappers
+ DEBUG [a204fe4a] 	........
+ DEBUG [a204fe4a] 	Regenerating ruby-2.3.3 wrappers
+ DEBUG [a204fe4a] 	........
+ DEBUG [a204fe4a] 	Regenerating ruby-2.3.3 wrappers
+ DEBUG [a204fe4a] 	........
+ DEBUG [a204fe4a] 	The Gemfile's dependencies are satisfied
+ DEBUG [a204fe4a] Finished in 4.599 seconds with exit status 0 (successful).
+  INFO [c11302ae] Running /usr/bin/env ln -s /home/chazona/www/releases/20170105172047 /home/chazona/www/releases/current as chazona@45.55.222.215
+ DEBUG [c11302ae] Command: /usr/bin/env ln -s /home/chazona/www/releases/20170105172047 /home/chazona/www/releases/current
+  INFO [c11302ae] Finished in 0.041 seconds with exit status 0 (successful).
+  INFO [fc58431a] Running /usr/bin/env mv /home/chazona/www/releases/current /home/chazona/www as chazona@45.55.222.215
+ DEBUG [fc58431a] Command: /usr/bin/env mv /home/chazona/www/releases/current /home/chazona/www
+  INFO [fc58431a] Finished in 0.042 seconds with exit status 0 (successful).
+ DEBUG [d33dec36] Running if test ! -d /home/chazona/www/releases/20170105172047; then echo "Directory does not exist '/home/chazona/www/releases/20170105172047'" 1>&2; false; fi as chazona@45.55.222.215
+ DEBUG [d33dec36] Command: if test ! -d /home/chazona/www/releases/20170105172047; then echo "Directory does not exist '/home/chazona/www/releases/20170105172047'" 1>&2; false; fi
+ DEBUG [d33dec36] Finished in 0.038 seconds with exit status 0 (successful).
+  INFO [8020383c] Running /usr/bin/env /home/chazona/.rvm/gems/ruby-2.3.3/wrappers/jekyll build --destination public as chazona@45.55.222.215
+ DEBUG [8020383c] Command: cd /home/chazona/www/releases/20170105172047 && /usr/bin/env /home/chazona/.rvm/gems/ruby-2.3.3/wrappers/jekyll build --destination public
+ DEBUG [8020383c] 	Configuration file: /home/chazona/www/releases/20170105172047/_config.yml
+ DEBUG [8020383c] 	
+ DEBUG [8020383c] 	            Source: /home/chazona/www/releases/20170105172047
+ DEBUG [8020383c] 	
+ DEBUG [8020383c] 	       Destination: public
+ DEBUG [8020383c] 	
+ DEBUG [8020383c] 	 Incremental build: disabled. Enable with --incremental
+ DEBUG [8020383c] 	
+ DEBUG [8020383c] 	      Generating... 
+ DEBUG [8020383c] 	
+ DEBUG [8020383c] 	                    done in 1.418 seconds.
+ DEBUG [8020383c] 	
+ DEBUG [8020383c] 	 Auto-regeneration: disabled. Use --watch to enable.
+ DEBUG [8020383c] 	
+  INFO [8020383c] Finished in 2.334 seconds with exit status 0 (successful).
+ DEBUG [d5a9f2e8] Running /usr/bin/env ls -x /home/chazona/www/releases as chazona@45.55.222.215
+ DEBUG [d5a9f2e8] Command: /usr/bin/env ls -x /home/chazona/www/releases
+ DEBUG [d5a9f2e8] 	20170105032245	20170105032740	20170105033032	20170105170600	20170105170801
+20170105172047
+ DEBUG [d5a9f2e8] Finished in 0.039 seconds with exit status 0 (successful).
+  INFO Keeping 5 of 6 deployed releases on 45.55.222.215
+  INFO [07e64913] Running /usr/bin/env rm -rf /home/chazona/www/releases/20170105032245 as chazona@45.55.222.215
+ DEBUG [07e64913] Command: /usr/bin/env rm -rf /home/chazona/www/releases/20170105032245
+  INFO [07e64913] Finished in 0.042 seconds with exit status 0 (successful).
+ DEBUG [ac6f5095] Running if test ! -d /home/chazona/www/releases; then echo "Directory does not exist '/home/chazona/www/releases'" 1>&2; false; fi as chazona@45.55.222.215
+ DEBUG [ac6f5095] Command: if test ! -d /home/chazona/www/releases; then echo "Directory does not exist '/home/chazona/www/releases'" 1>&2; false; fi
+ DEBUG [ac6f5095] Finished in 0.036 seconds with exit status 0 (successful).
+  INFO [39e496c8] Running /usr/bin/env echo "Branch master (at fb4676302e6114d4a4eabe25869acc9335fd2611) deployed as release 20170105172047 by chazona" >> /home/chazona/www/revisions.log as chazona@45.55.222.215
+ DEBUG [39e496c8] Command: cd /home/chazona/www/releases && /usr/bin/env echo "Branch master (at fb4676302e6114d4a4eabe25869acc9335fd2611) deployed as release 20170105172047 by chazona" >> /home/chazona/www/revisions.log
+  INFO [39e496c8] Finished in 0.039 seconds with exit status 0 (successful).
