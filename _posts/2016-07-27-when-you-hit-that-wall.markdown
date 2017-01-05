@@ -43,7 +43,7 @@ In addition to more specific resources, I am also taking advantage of practice t
 Of course, different forms of challenge and competition can keep things interesting, so finally I set up an account on [HackerRank](https://hackerrank.com) so I can progress through additional algorithms and participate in contests to show how my skills grow.
 
 ![HackerRank 30 Days of Code Challenges, Day 0 Completed](http://chazonabaum.com/images/hackerrankday0.PNG)
-Figure 2. Always have to start somewhere[/caption]
+Figure 2. Always have to start somewhere
 
 Needless to say, I’m not nearly ready for even the “Newbie” contests — if you want to feel better about your own progress, I’ll be happy to tell you how I scored. Eventually, I’ll get there, and in the meantime, the challenges and algorithms are helpful in gaining some of the academic knowledge I’m missing out on by not having a computer science degree.
 

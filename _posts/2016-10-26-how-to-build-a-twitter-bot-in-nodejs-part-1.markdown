@@ -102,7 +102,7 @@ That `--save` term will include the module in the dependencies of your `packag
 
 Of course, in order for your bot to do anything with a Twitter account, it needs to authenticate. You'll need to create a `config.js` file to hold your API keys because you *don't* want them to be in your main logic file. Remember the Twitter screen with the four codes? Enter them in the `config.js` file like this:
 
-{% highlight json %}
+{% highlight javascript %}
 module.exports = {
   consumer_key: '...',
   consumer_secret: '...',
