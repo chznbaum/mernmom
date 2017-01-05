@@ -1,6 +1,8 @@
 # config valid only for current version of Capistrano
 lock "3.7.1"
 
+set :rvm1_ruby_version, "ruby-2.3.3"
+
 set :application, "mernmom"
 set :repo_url, "https://github.com/chznbaum/mernmom.git"
 
@@ -48,7 +50,7 @@ namespace :deploy do
   before :restart, :build_public do
     on roles(:app) do
       within release_path do
-        execute "home/chazona/.rvm/gems/ruby-2.3.1/wrappers/jekyll", "build --destination public"
+        execute "home/chazona/.rvm/gems/ruby-2.3.3/wrappers/jekyll", "build --destination public"
       end
     end
   end
