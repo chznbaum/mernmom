@@ -50,7 +50,7 @@ namespace :deploy do
   before :restart, :build_public do
     on roles(:app) do
       within release_path do
-        execute "home/chazona/.rvm/gems/ruby-2.3.3/wrappers/jekyll", "build --destination public"
+        execute "/home/chazona/.rvm/gems/ruby-2.3.3/wrappers/jekyll", "build --destination public"
       end
     end
   end
