@@ -47,7 +47,7 @@ Instead of building out our website early on, we went with [Mobilize.io](https:/
 
 Meanwhile, I utilized [Tailor Brands](https://www.tailorbrands.com/) to obtain an affordable logo for about $20 and some graphic design materials. Between my own code study, organizing the group, and taking care of my kids, I was having to get a little less DIY with my local group than I would have liked.
 
-![Midlothian Code Logo](https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/logo_white_background.png)
+![Midlothian Code Logo](https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/logo_white_background.jpg)
 
 I also applied for room reservation privileges at my local library, which made our venue situation more secure. Libraries are often a neglected resource, but you should definitely take a look at what your library network offers if you're starting a local group as it provides vital free services you're unlikely to get anywhere else.
 

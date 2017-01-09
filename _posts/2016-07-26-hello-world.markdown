@@ -19,14 +19,14 @@ For my setup, I chose to use Hubpress to manage my blog. Other options are avail
 
 **Do not** create your GitHub page first. Once the repository is forked, you can rename it in the style `.github.io` that GitHub Pages would have used. You need to retain the fork relationship with Hubpress.io to ensure you can apply updates later on, which won’t happen if you push everything to an empty repository.
 
-![GitHub Pages Settings Page - Options](http://chazonabaum.com/images/rename.PNG)
+![GitHub Pages Settings Page - Options](http://chazonabaum.com/images/rename.PNG)  
 Figure 2. Rename your page here, if this is a user page
 
 ## What’s In a Name — a Headache ##
 
 If you intend to use a custom domain, this is a good time to ensure it is ready to use. I used [Google Domains](https://domains.google/) for my blog. Google Domains is in Beta right now, but my experience with it has been smooth so far. Most domains are available for $12 a year with free private listing and easy integration of services like [Apps for Work](https://apps.google.com/).
 
-![Hubpress config.json file meta](http://chazonabaum.com/images/configjson.PNG)
+![Hubpress config.json file meta](http://chazonabaum.com/images/configjson.PNG)  
 Figure 3. Edit your config.json file
 
 From there, you can go into the Code section of your repository, under `/hubpress/config.json`. You should fill in as follows and merge the changes in your local master branch:
@@ -35,7 +35,7 @@ From there, you can go into the Code section of your repository, under `/hubpres
     "repositoryName": ,
     "branch": "master",
 
-![GitHub Pages Settings: Custom Domain](http://chazonabaum.com/images/pagesdomain.PNG)
+![GitHub Pages Settings: Custom Domain](http://chazonabaum.com/images/pagesdomain.PNG)  
 Figure 4. Enter your custom domain
 
 Go back into settings and scroll down to enter your custom domain in the applicable field. Click save.
@@ -47,7 +47,7 @@ Back in the root of your repository, enter the file `CNAME` and make sure your d
 
 Once this is all complete on the GitHub side, you can sync up your domain. If you used Google Domains, this part is manageable.
 
-![Google Domains Custom Resource Records](http://chazonabaum.com/images/customresourcerecords.PNG)
+![Google Domains Custom Resource Records](http://chazonabaum.com/images/customresourcerecords.PNG)  
 Figure 5. Enter your GitHub info
 
 While managing `My domains`, click `DNS` and scroll all the way to the bottom. For your site to work with or without the `www` subdomain, you should include a `CNAME` entry with the `www` subdomain and your `.github.io` URL.
@@ -62,7 +62,7 @@ These IPs can change over time. Confirm the current ones at [GitHub Apex Domain 
 
 From there, it may take a few moments or up to 24 hours for everything to point where it should. When you view your site, if you see the following screen, you have set everything up correctly.
 
-![HubPress.io: An awesome blog will be here soon!](http://chazonabaum.com/images/successfulsetup.PNG)
+![HubPress.io: An awesome blog will be here soon!](http://chazonabaum.com/images/successfulsetup.PNG)  
 Figure 6. Hooray for confirmation!
 
 Add `/hubpress` to the end of your domain to access the dashboard login screen, and use your GitHub username and password. From there, you will see a blank page — your posts screen — and a menu bar you can use to access settings like your blog’s title and social media links.

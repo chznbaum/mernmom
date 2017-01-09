@@ -10,7 +10,7 @@ I keep having to remind myself that I’ve only actually been studying on [Free 
 
 Sometimes, it’s to ensure I don’t get lured into a sense of hubris. I’ll be flying through tutorials, devouring them as though they were wrapped in bacon.
 
-![Free Code Camp Activity Chart: 302 challenges completed](http://chazonabaum.com/images/freecodecampprogress.PNG)
+![Free Code Camp Activity Chart: 302 challenges completed](http://chazonabaum.com/images/freecodecampprogress.PNG)  
 Figure 1. Seriously? In ten days?
 
 ## Riding That High ##
@@ -26,7 +26,7 @@ And I had been racing through tasks and challenges as quickly as I could access 
 
 As I poured through documentation about the recommended API, I could not make sense of how I was supposed to actually use it. And it hit me that I didn’t understand how to implement the API because I didn’t understand enough of the underlying JavaScript. By focusing only on the tutorials and challenges, I was learning at an incredible pace, but I was lacking in areas that would be critical in completing more advanced challenges and algorithms.
 
-![Useless! Empty! Brain!](http://chazonabaum.com/images/uselessemptybrain.gif)
+![Useless! Empty! Brain!](http://chazonabaum.com/images/uselessemptybrain.gif)  
 Big Hero 6 Captures my sentiment
 
 ## Regroup and Diversify ##
@@ -44,7 +44,7 @@ In addition to more specific resources, I am also taking advantage of practice t
 
 Of course, different forms of challenge and competition can keep things interesting, so finally I set up an account on [HackerRank](https://hackerrank.com) so I can progress through additional algorithms and participate in contests to show how my skills grow.
 
-![HackerRank 30 Days of Code Challenges, Day 0 Completed](http://chazonabaum.com/images/hackerrankday0.PNG)
+![HackerRank 30 Days of Code Challenges, Day 0 Completed](http://chazonabaum.com/images/hackerrankday0.PNG)  
 Figure 2. Always have to start somewhere
 
 Needless to say, I’m not nearly ready for even the “Newbie” contests — if you want to feel better about your own progress, I’ll be happy to tell you how I scored. Eventually, I’ll get there, and in the meantime, the challenges and algorithms are helpful in gaining some of the academic knowledge I’m missing out on by not having a computer science degree.
