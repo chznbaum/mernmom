@@ -31,7 +31,7 @@ To follow along with this tutorial, you will need a server or VPS with *root* ac
 
 To start with, you're going to need to do some basic setup of your server. In this tutorial, we're using Ubuntu 16.04, which Digital Ocean and others VPS providers make easy to install while creating your server. Once you receive your root login information (likely by email), log into your VPS using SSH on your console. Grab your server's *IP address*, a series of four or six numbers separated by periods that tells your browser where to find your server. For Digital Ocean, this can be found on the `Droplets` page like this:
 
-![Droplets: Name, IP Address, Created, Tags](https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/DropletScreenshot.png)
+![Droplets: Name, IP Address, Created, Tags](https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/DropletsScreenshot.png)
 
 You should type something like the following, filling in your server's IP address in place of the zeros:
 
@@ -191,6 +191,6 @@ You'll get a detailed output, but the piece you want to look for is `Active: act
 
 If you did, great! Your server is working correctly.
 
-We're finished for today, and Thursday we'll get all the dependencies needed for Jekyll and get our blog deployed! Want something to do in the meantime? If you have Digital Ocean, here's a useful [guide](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-host-name-with-digitalocean) by [Etel Sverdlov](https://twitter.com/etelsverdlov) on setting up your domain/hostname on your server.
+We're finished for today, Thursday we'll get all the dependencies needed and install Jekyll, and Monday we'll get the blog deployed! Want something to do in the meantime? If you have Digital Ocean, here's a useful [guide](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-host-name-with-digitalocean) by [Etel Sverdlov](https://twitter.com/etelsverdlov) on setting up your domain/hostname on your server.
 
 Questions, comments or concerns? Continue the conversation on [Twitter](https://twitter.com/intent/tweet?text=%40chznbaum&url=http%3A%2F%2Fmernmom.com%2F2017%2F01%2F09%2Fgetting-started-with-jekyll-part-1.html). Clicking that link will open a Twitter prompt directed at me including the link to this article for your convenience.
