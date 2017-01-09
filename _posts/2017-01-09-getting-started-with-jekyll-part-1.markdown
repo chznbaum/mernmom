@@ -49,7 +49,7 @@ Type `yes` and enter your root password:
 
 Your terminal should require you to immediately change your password. Enter your original password and then the new one twice. The prompt should then change to reflect your using the droplet like so: `root@00.00.00.00 ~$`.
 
-Now, this root user can easily get you in a lot of trouble because it has access to *everything* on your server and can do *anything* to it. You don't want to be the person who accidentally deletes everything on your server by hitting just a few keystrokes: `rm -rf /`
+Now, this root user can easily get you in a lot of trouble because it has access to *everything* on your server and can do *anything* to it. You don't want to be the person who accidentally deletes everything on your server by hitting just a few keystrokes.
 
 So what we're going to do instead is create a new user that can access administrator privileges, but only deliberately so accidents are less likely to be catastrophic. Choose a username, and in your terminal, type:
 
