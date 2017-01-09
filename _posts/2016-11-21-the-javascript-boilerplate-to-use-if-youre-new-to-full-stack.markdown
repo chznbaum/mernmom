@@ -25,3 +25,5 @@ Each version lays out clear installation instructions and strong documentaion. T
 Will this be the framework you use for every project you ever make? Absolutely not; there are good reasons why many of these other boilerplates and projects become so bloated, and not every tool works well for every project. But if you're a beginner and you're not utilizing Clementine.js, you are making more work for yourself.
 
 Like what Blake has done with Clementine.js? Consider [contributing](http://www.clementinejs.com/developers/contributing.html) to the project. As with other open-source projects, it can only survive with the help of meaningful contributions.
+
+What are you building today? Continue the conversation on [Twitter](https://twitter.com/intent/tweet?text=%40chznbaum&url=http%3A%2F%2Fmernmom.com%2F2016%2F11%2F21%2Fthe-javascript-boilerplate-to-use-if-youre-new-to-full-stack.html). Clicking that link will open a Twitter prompt directed at me including the link to this article for your convenience.

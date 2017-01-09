@@ -129,4 +129,6 @@ var stream = T.stream('user'); // Set up user stream
 
 The last two lines get you set up to start listening to your account's Twitter stream for events like tweets and follows.
 
-When you're ready to start piecing this bot together, go ahead to Part 2. In the meantime, feel free to get familiar with the Twitter API module we're using, [Twit](https://github.com/ttezel/twit).
+When you're ready to start piecing this bot together, go ahead to Part 2. In the meantime, feel free to get familiar with the Twitter API module we're using, [Twit](https://github.com/ttezel/twit
+
+Questions? Ask them on [Twitter](https://twitter.com/intent/tweet?text=%40chznbaum&url=http%3A%2F%2Fmernmom.com%2F2016%2F10%2F26%2Fhow-to-build-a-twitter-bot-in-nodejs-part-1.html). Clicking that link will open a Twitter prompt directed at me including the link to this article for your convenience.

@@ -68,4 +68,4 @@ My oldest is starting to read words and my youngest likes to look at pictures, s
 
 None of this is to dismiss the fact that working at home while simultaneously taking care of kids is hard work. These options help to make it possible, but I still stay up several hours after my kids go to bed so that I can concentrate for a bit.
 
-Let me know in the comments if these helped you or what you've tried, or even work from home horror stories.
+Let me know on [Twitter](https://twitter.com/intent/tweet?text=%40chznbaum&url=http%3A%2F%2Fmernmom.com%2F2016%2F11%2F14%2F5-ways-to-involve-young-kids-when-coding.html) if these helped you or what you've tried, or even work from home horror stories. Clicking that link will open a Twitter prompt directed at me including the link to this article for your convenience.

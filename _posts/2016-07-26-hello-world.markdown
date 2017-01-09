@@ -71,4 +71,4 @@ You must set your blog’s title before you start trying to save posts.
 
 Congratulate yourself on a job well done, as this process trips many people up. Once you’re ready to write, pull up your favorite editor like Notepad++, brush up on [AsciiDoc's plain text syntax](http://asciidoctor.org/docs/asciidoc-writers-guide/) and you’re on your way.
 
-How was your first experience jumping into GitHub? Share your experiences with a comment.
+How was your first experience jumping into GitHub? Share your experiences on [Twitter](https://twitter.com/intent/tweet?text=%40chznbaum&url=http%3A%2F%2Fmernmom.com%2F2016%2F07%2F26%2Fhello-world.html). Clicking that link will open a Twitter prompt directed at me including the link to this article for your convenience.

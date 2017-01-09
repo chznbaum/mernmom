@@ -104,3 +104,5 @@ Teaching yourself has the potential to be the least expensive or the most expens
 Perhaps the best way to go about teaching yourself to code is to find a learning path that makes sense for the primary language you want to learn, and plug additional resources into it. One resource will not teach you everything you need to know, but you want to have an idea of what to learn when.
 
 Check this space coming soon for a detailed overview of a variety of options for teaching yourself.
+
+Questions, comments or concerns? Continue the conversation on [Twitter](https://twitter.com/intent/tweet?text=%40chznbaum&url=http%3A%2F%2Fmernmom.com%2F2016%2F11%2F28%2Fhow-to-learn-code-as-a-mom.html). Clicking that link will open a Twitter prompt directed at me including the link to this article for your convenience.

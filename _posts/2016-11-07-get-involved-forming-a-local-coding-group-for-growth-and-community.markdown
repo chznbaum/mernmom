@@ -47,7 +47,7 @@ Instead of building out our website early on, we went with [Mobilize.io](https:/
 
 Meanwhile, I utilized [Tailor Brands](https://www.tailorbrands.com/) to obtain an affordable logo for about $20 and some graphic design materials. Between my own code study, organizing the group, and taking care of my kids, I was having to get a little less DIY with my local group than I would have liked.
 
-![Midlothian Code Logo](https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/logo_transparent_background-1.png)
+![Midlothian Code Logo](https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/logo_transparent_background.png)
 
 I also applied for room reservation privileges at my local library, which made our venue situation more secure. Libraries are often a neglected resource, but you should definitely take a look at what your library network offers if you're starting a local group as it provides vital free services you're unlikely to get anywhere else.
 
@@ -73,4 +73,4 @@ The attention that Meetup gives groups is valuable, although I would limit our u
 
 Building a site, meanwhile, is possible almost for free while the group is still small (I'm only paying for domain, inexpensive hosting, and email). The benefit of having one primary place to direct members and have them congregate can't be overstated. Once members can be organized, that's when they can really get to work on coded-from-scratch projects that can be highlighted on our site.
 
-Are you thinking about starting a local coding group where you live? Share your concerns in the comments, and I'd love to help you out.
+Are you thinking about starting a local coding group where you live? Share your concerns  on [Twitter](https://twitter.com/intent/tweet?text=%40chznbaum&url=http%3A%2F%2Fmernmom.com%2F2016%2F11%2F07%2Fget-involved-forming-a-local-coding-group-for-growth-and-community.html), and I'd love to help you out. Clicking that link will open a Twitter prompt directed at me including the link to this article for your convenience.

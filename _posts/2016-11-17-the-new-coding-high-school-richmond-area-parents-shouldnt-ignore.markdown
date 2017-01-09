@@ -53,4 +53,4 @@ Thomas Dale High School (Main Campus) Library
 Session I: 5:30-6:30  
 Session II: 6:45-7:45  
 
-Would you take advantage of such a program for your kids? Share your thoughts in the comments!
+Would you take advantage of such a program for your kids? Share your thoughts on [Twitter](https://twitter.com/intent/tweet?text=%40chznbaum&url=http%3A%2F%2Fmernmom.com%2F2016%2F11%2F17%2Fthe-new-coding-high-school-richmond-area-parents-shouldnt-ignore.html). Clicking that link will open a Twitter prompt directed at me including the link to this article for your convenience.

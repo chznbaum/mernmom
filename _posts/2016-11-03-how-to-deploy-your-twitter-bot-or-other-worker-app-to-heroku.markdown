@@ -77,4 +77,4 @@ Or this one that shows your app console, any errors and shutdowns or restarts:
 
 Go ahead and check out your awesome app!
 
-What kind of bot or app did you deploy? Feel free to share in the comments.
+What kind of bot or app did you deploy? Feel free to share on [Twitter](https://twitter.com/intent/tweet?text=%40chznbaum&url=http%3A%2F%2Fmernmom.com%2F2016%2F11%2F03%2Fhow-to-deploy-your-twitter-bot-or-other-worker-app-to-heroku.html). Clicking that link will open a Twitter prompt directed at me including the link to this article for your convenience.

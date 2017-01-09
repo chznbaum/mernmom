@@ -51,4 +51,4 @@ Needless to say, I’m not nearly ready for even the “Newbie” contests — i
 
 And of course, lastly, I’m going to need to get more involved with other coders: share, comment, and interact as part of a community. Conveniently, Free Code Camp recommends local meetup groups for Coffee and Code and other types of events. The nearest one to me is in a neighboring city 30 minutes away, which is a barrier to attending; FCC recommends having the groups as local as possible, so setting one up for my town will probably be on the docket for tomorrow or the next day. And that’ll provide a great opportunity for some leadership experience.
 
-Have you hit a wall (or many) yet in your coding adventures? How are you adapting to move forward? Feel free to share in the comments.
+Have you hit a wall (or many) yet in your coding adventures? How are you adapting to move forward? Feel free to share on [Twitter](https://twitter.com/intent/tweet?text=%40chznbaum&url=http%3A%2F%2Fmernmom.com%2F2016%2F07%2F27%2Fwhen-you-hit-that-wall.html). Clicking that link will open a Twitter prompt directed at me including the link to this article for your convenience.
