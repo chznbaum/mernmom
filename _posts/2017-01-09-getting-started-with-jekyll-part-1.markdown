@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Getting Started with Jekyll - Part 1"
+title: "Getting Started with Jekyll - Part 1: Servers and SSH"
 date: 2017-01-09 07:00:00 -0500
 image: https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/jekyll-logo-light-solid.png
 categories:
@@ -21,7 +21,7 @@ For those who have never managed their blog in this way, though, it can be prett
 
 The easiest way to install Jekyll is to use [GitHub Pages](https://pages.github.com). I won't go over that method here; instead, to have more control over the installation and site itself, we're going to walk through hosting Jekyll on your own *server*, an always-connected computer for serving content, or *Virtual Private Server*/*VPS*, a piece of a server blocked off from the rest that acts like its own server. If you have never managed your own server before, this is a great project to learn from!
 
-By the end of Part 1, you're going to have a functioning server you can add a domain name to. In Part 2, we'll get to the dependencies needed to make Jekyll and our deployments work. Finally in Part 3, we will configure Jekyll and get our site ready to deploy some posts. Ready for some fun?
+By the end of Part 1, you're going to have a functioning server you can add a domain name to. In [Part 2](http://mernmom.com/2017/01/12/getting-started-with-jekyll-part-2.html), we'll get to the dependencies needed to make Jekyll and our deployments work. Finally in Part 3, we will configure Jekyll and get our site ready to deploy some posts. Ready for some fun?
 
 ## Requirements ##
 
@@ -191,6 +191,6 @@ You'll get a detailed output, but the piece you want to look for is `Active: act
 
 If you did, great! Your server is working correctly.
 
-We're finished for today, Thursday we'll get all the dependencies needed and install Jekyll, and Monday we'll get the blog deployed! Want something to do in the meantime? If you have Digital Ocean, here's a useful [guide](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-host-name-with-digitalocean) by [Etel Sverdlov](https://twitter.com/etelsverdlov) on setting up your domain/hostname on your server.
+We're finished for today, in [Part 2](http://mernmom.com/2017/01/12/getting-started-with-jekyll-part-2.html) we'll get all the dependencies needed and install Jekyll, and Monday we'll get the blog posts and changes deployed! Want something to do in the meantime? If you have Digital Ocean, here's a useful [guide](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-host-name-with-digitalocean) by [Etel Sverdlov](https://twitter.com/etelsverdlov) on setting up your domain/hostname on your server.
 
 Questions, comments or concerns? Continue the conversation on [Twitter](https://twitter.com/intent/tweet?text=%40chznbaum&url=http%3A%2F%2Fmernmom.com%2F2017%2F01%2F09%2Fgetting-started-with-jekyll-part-1.html). Clicking that link will open a Twitter prompt directed at me including the link to this article for your convenience.
