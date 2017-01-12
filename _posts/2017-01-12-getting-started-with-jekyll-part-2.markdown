@@ -57,7 +57,7 @@ Now that you have those set up locally, it's time to see what you're working wit
 
 This will generate and serve a basic Jekyll blog locally. Check it out! Go into your browser to `localhost:4000`, and you should see something like the following:
 
-![Jekyll Blog Demo Site](https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/Screenshot-from-2017-01-04 23-08-31.png)
+![Jekyll Blog Demo Site](https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/Screenshot-from-2017-01-04-23-08-31.png)
 
 When you're done, you're going to see that when you enter our server's address. To do that, you're going to need to configure a few things.
 
@@ -479,7 +479,7 @@ Finally, go ahead and tell Capistrano to deploy your current site by typing:
 
 Open your browser window and type your server's address. You should see this:
 
-![Jekyll Blog Demo Site](https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/Screenshot-from-2017-01-04 23-08-31.png)
+![Jekyll Blog Demo Site](https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/Screenshot-from-2017-01-04-23-08-31.png)
 
 If you did, great! You set up your Jekyll site to push your local content to your server!
 
