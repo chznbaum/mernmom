@@ -2,7 +2,8 @@
 layout: post
 title: "How to Build a Twitter Bot in Node.js - Part 2"
 date: 2016-10-31 07:00:00 -0500
-image: https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/Screenshot-from-2016-10-27-01-01-59.png
+image:
+  feature: /assets/Screenshot-from-2016-10-27-01-01-59.png
 categories:
 - tutorials
 tags:
@@ -13,13 +14,15 @@ tags:
 ---
 This is the second part of a two-part series on creating a Twitter bot. In the first part, we reviewed setting up Twitter credentials for the bot, ensured we have Node and NPM available, and began working with our directory structure and Twitter API module. In this second part, we'll go over using the API module to tweet, respond to tweets, follow and unfollow, and learn how to make the bot your own. Let's get started!
 
+<!--more-->
+
 ## Tweeting ##
 
 At this point, we are beginning to use the Twit module to create tweets. Reviewing the [Twit documentation](https://github.com/ttezel/twit), we can see that the first example uses a post method to create a new status - this is how we post a tweet.
 
 Let's take a look at what this might look like as a reusable function within our code:
 
-{% highlight javascript %}
+~~~ javascript
 var Twit = require('twit'); // Include Twit package
 var config = require('./config'); // Include API keys
 var T = new Twit(config);
@@ -36,7 +39,7 @@ function tweetIt(txt) { //Function to send tweets
   }
 }
 tweetIt('Hello world!'); // Tweet "Hello world!"
-{% endhighlight %}
+~~~
 
 This will allow us to pass as a parameter the content of your tweet to the function that will post the update. When the tweet attempt is made, we're going to check for errors, and print them to the console if they exist. In the case of our function call, the parameter we pass is `"Hello world!"`
 
@@ -50,7 +53,7 @@ In order to be able to have any kind of interactive Twitter bot, though, we need
 
 The first event we're going to listen for is the "tweet" event, which will trigger a function to handle any processing that will take place. Our code will look like this:
 
-{% highlight javascript %}
+~~~ javascript
 var Twit = require('twit'); // Include Twit package
 var config = require('./config'); // Include API keys
 var T = new Twit(config);
@@ -59,11 +62,11 @@ stream.on('tweet', tweetEvent); // Anytime a tweet enters the stream, trigger tw
 function tweetEvent(eventMsg) { // Function to run on each tweet in the stream
   console.log(eventMsg);
 }
-{% endhighlight %}
+~~~
 
 Now, if you go into your terminal and restart the bot (type `.exit` to get out of the existing server before your `nodejs bot.js` command) and then tweet at your bot, your terminal console will fill with so much information that it can be hard to decipher. It contains things like details of who sent the message, any @mentions or geolocation information, information used to display a profile and other things.  This information is actually very useful in creating a bot that can respond to tweets, so let's try to make it look more legible:
 
-{% highlight javascript %}
+~~~ javascript
 var Twit = require('twit'); // Include Twit package
 var config = require('./config'); // Include API keys
 var T = new Twit(config);
@@ -74,13 +77,13 @@ function tweetEvent(eventMsg) { // Function to run on each tweet in the stream
   var json = JSON.stringify(eventMsg, null, 4); // Prettify the eventMsg
   fs.writeFile('tweet.json', json); // Write the prettified eventMsg to a local file
 }
-{% endhighlight %}
+~~~
 
 Now if you save your file, run the bot again, and tweet at it, a file will be created called `tweet.json`. In it, you'll find what looks like a standard JSON file, and it becomes easier to tell what each piece of data actually is.
 
 We're going to need the `user.screen_name`, `text`, and `in_reply_to_screen_name` properties in particular:
 
-{% highlight javascript %}
+~~~ javascript
 var twit = require('twit'); // Include Twit package
 var config = require('config'); // Include authentication credentials
 var bot_screen_name = YOUR-BOT-NAME; // Set your bot's Twitter handle
@@ -104,13 +107,13 @@ function tweetEvent(eventMsg) { // Function to run on each tweet in the stream
     }
   }
 }
-{% endhighlight %}
+~~~
 
 Let's take a look at this for a moment. First is the addition of a new variable `bot_screen_name`. We're going to include your bot's handle in a few conditionals, so we may as well put it in a variable. In the body of the `tweetEvent()` function, we're going to set who sent the tweet, what it actually said, and if the tweet was an @reply, who it was in response to. Then we're going to check that the bot didn't send the tweet. This seems silly, but bear in mind that your bot's own tweets, follows and other events are a part of its stream. Inside that condition, we're also going to check to see if the tweet is an @reply, and if so if it is directed at your bot. With these conditions we can create logic to handle any tweets by those your bot follows as well as handling @replies.
 
 Before I go into an example of how I handled mine, we need to add the tweeting function we used before. Remember that it looked a bit like this:
 
-{% highlight javascript %}
+~~~ javascript
 function tweetIt(txt) { // Function to send tweets
   var tweet = { // Message of tweet to send out
     status: txt
@@ -122,11 +125,11 @@ function tweetIt(txt) { // Function to send tweets
     }
   }
 }
-{% endhighlight %}
+~~~
 
 Now to put it together, this is a simplified version of how I did my Mom Bot's tweet logic:
 
-{% highlight javascript %}
+~~~ javascript
 var twit = require('twit'); // Include Twit package
 var config = require('config'); // Include authentication credentials
 var bot_screen_name = YOUR-BOT-NAME; // Set your bot's Twitter handle
@@ -176,7 +179,7 @@ function tweetIt(txt) { // Function to send tweets
     }
   }
 }
-{% endhighlight %}
+~~~
 
 Because of Mom Bot's "personality" she will scan all tweets issued by followers for "bad words" and issue a warning to the user if they occur.  For this, I used the Bad Words module to generate an array of words to check for.
 
@@ -196,7 +199,7 @@ Now if we check the Twit documentation again, it has a couple of examples of usi
 
 In our case, we'll go ahead and follow each follower who follows the bot. It will look a bit like this:
 
-{% highlight javascript %}
+~~~ javascript
 var twit = require('twit'); // Include Twit package
 var config = require('config'); // Include authentication credentials
 var bot_screen_name = YOUR-BOT-NAME; // Set your bot's Twitter handle
@@ -258,7 +261,7 @@ function tweetIt(txt) { // Function to send tweets
     }
   }
 }
-{% endhighlight %}
+~~~
 
 So here we've added an event listener to listen for follow events, which will trigger our `followed()` function. From there we check that the user doing the follow wasn't the bot, similar to how we checked tweets. If the event passes our check, the bot will follow the user and print an error if one is thrown.
 
@@ -266,7 +269,7 @@ So here we've added an event listener to listen for follow events, which will tr
 
 Let's use what we've learned to actually unfollow the users we tweeted that we would earlier:
 
-{% highlight javascript %}
+~~~ javascript
 var twit = require('twit'); // Include Twit package
 var config = require('config'); // Include authentication credentials
 var bot_screen_name = YOUR-BOT-NAME; // Set your bot's Twitter handle
@@ -333,7 +336,7 @@ function tweetIt(txt) { // Function to send tweets
     }
   }
 }
-{% endhighlight %}
+~~~
 
 Now at least the bot is being honest!
 
@@ -343,7 +346,7 @@ Now the bot can follow and unfollow independently, it can respond to tweets, and
 
 The full example of my bot is below, and as you can see, it includes additional responses and randomizes them. It will respond to @replies with certain "sad" or "proud" words. It also includes some instances where it will notify me if the bot isn't able to do what's expected.
 
-{% highlight javascript %}
+~~~ javascript
 console.log('The bot is starting...');
 var Twit = require('twit'); // Include Twit Package
 var config = require('./config'); // Include authentication credentials
@@ -541,7 +544,7 @@ function randomSaying(sayingList) { // Function to randomize the expression to u
   var saying = sayingList[saying_number]; // Grab expression matching that number
   return saying; // Return the expression
 }
-{% endhighlight %}
+~~~
 
 ![Mom Bot cheer up tweet](https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/cheer_up_screen.jpg)
 

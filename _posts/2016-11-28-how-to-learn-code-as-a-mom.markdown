@@ -2,7 +2,8 @@
 layout: post
 title: "How to Learn Code as a Mom"
 date: 2016-11-28 12:00:00 -0500
-image: https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/startup-849804_1920.jpg
+image:
+  feature: /assets/startup-849804_1920.jpg
 categories:
 - lists
 - motherhood
@@ -24,6 +25,8 @@ tags:
 - working moms
 ---
 Learning anything related to computer science is not easy. When you're a parent first, it can often seem like the extra challenges in front of you make it impossible. However, if you know what resources are available, and which are best suited for your family, it is often possible to learn and parent at the same time.
+
+<!--more-->
 
 For parents and non-parents alike, there are four main paths you can take to learn code: the traditional track, bootcamps, apprenticeships and internships, and the self-taught track. Over a five-part series, we will look at each of these paths, looking at focal points of importance to moms, and subsequently look at detailed lists of options within each track.
 

@@ -2,7 +2,8 @@
 layout: post
 title: "Women, Tech, and the Presidency: How We Move On From Here"
 date: 2016-11-10 07:00:00 -0500
-image: https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/Trump_CPAC_2011.jpg
+image:
+  feature: /assets/Trump_CPAC_2011.jpg
 categories:
 - motherhood
 - news
@@ -12,6 +13,8 @@ tags:
 - leadership
 ---
 For many of us, whether we stayed up until the early hours of the morning or woke up to news reports, Wednesday brought a solemn sense of shock. For many of us, as mothers and as tech innovators alike, it was hard to juxtapose our modern society with what had just taken place. The world watched in real time with us, questioning what our circumstances would now mean for them.
+
+<!--more-->
 
 While telling everyone that everything will be okay because our country has been resilient through a painful history does little good, as many people will suffer if Trump is true to his campaign, the important thing to bear in mind is that it also does little good to panic.
 

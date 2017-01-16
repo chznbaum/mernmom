@@ -2,13 +2,14 @@
 layout: post
 title: "Hello World!"
 date: 2016-07-26 14:49:00 -0500
-image: https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/nightcomputer.jpg
+image:
+  feature: /assets/nightcomputer.jpg
 categories:
 - code log
 ---
 These two words have been typed countless times as developers take their first steps in new languages. So they should be fitting now, as I begin to chronicle my own path from fledgling coder to full-stack developer. This is the start of what is proving to be a fascinating, if vexing, journey.
 
-To begin, I should probably take a moment to share how this blog came to be, particularly since it almost didn’t happen. Given the value and necessity of GitHub, I chose to host my page using their [GitHub Pages](https://pages.github.com/) tool. Of course, as it seems everyone new to code finds out on discovering GitHub’s utility, there is a steep learning curve to the tools. I ultimately created and deleted the site twice, staying up until 2 AM to set it up, so I hope that my experience makes it easier for someone else.
+To begin, I should probably take a moment to share how this blog came to be, particularly since it almost didn’t happen.<!--more--> Given the value and necessity of GitHub, I chose to host my page using their [GitHub Pages](https://pages.github.com/) tool. Of course, as it seems everyone new to code finds out on discovering GitHub’s utility, there is a steep learning curve to the tools. I ultimately created and deleted the site twice, staying up until 2 AM to set it up, so I hope that my experience makes it easier for someone else.
 
 ## Forget Spooning; It’s Time to Fork ##
 
@@ -31,9 +32,11 @@ Figure 3. Edit your config.json file
 
 From there, you can go into the Code section of your repository, under `/hubpress/config.json`. You should fill in as follows and merge the changes in your local master branch:
 
-    "username": ,
-    "repositoryName": ,
-    "branch": "master",
+~~~
+"username": ,
+"repositoryName": ,
+"branch": "master",
+~~~
 
 ![GitHub Pages Settings: Custom Domain](http://chazonabaum.com/images/pagesdomain.PNG)  
 Figure 4. Enter your custom domain
@@ -42,8 +45,10 @@ Go back into settings and scroll down to enter your custom domain in the applica
 
 Back in the root of your repository, enter the file `CNAME` and make sure your domain is listed on two lines, as follows:
 
-    domain.com
-    www.domain.com
+~~~
+domain.com
+www.domain.com
+~~~
 
 Once this is all complete on the GitHub side, you can sync up your domain. If you used Google Domains, this part is manageable.
 

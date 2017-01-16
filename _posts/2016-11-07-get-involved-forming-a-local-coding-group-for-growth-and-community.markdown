@@ -2,7 +2,8 @@
 layout: post
 title: "Get Involved! Forming a Local Coding Group for Growth and Community"
 date: 2016-11-07 07:00:00 -0500
-image: https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/startup-849794.jpg
+image:
+  feature: /assets/startup-849794.jpg
 categories:
 - series
 tags:
@@ -12,6 +13,8 @@ tags:
 - social coding
 ---
 When learning to code, you're often your own worst enemy. Speedy learning slows to a crawl and you start to wonder if you were cut out to code at all or if you were really an imposter all along. One good way to avoid this self-defeating spiral is to surround yourself with fellow coders as often as you can manage.
+
+<!--more-->
 
 Of course, there's no limit to the support you can find online, but there may be times when you really need a person there with you sharing their own struggles, helping you on bug hunting excursions, or to contribute to a project with you. If you don't happen to live right near an existing code group, however, don't despair. We're makers; you can make your own!
 

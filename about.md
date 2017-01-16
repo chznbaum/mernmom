@@ -1,9 +1,6 @@
 ---
-layout: page
-title: About
-permalink: /about/
+layout: about
 ---
-
 My name is Chazona Baum. I'm 28, and if you had asked me at 18 if I would end up heading down a full-stack web development path, I might have given you a look.
 
 I began primarily as a writer with a fondness for foreign languages. My journey with code started out, like many my age, tinkering with <abbr title="HyperText Markup Language">HTML</abbr> and some very basic <abbr title="Cascading Style Sheets">CSS</abbr>. Common knowledge at the time was that while *anyone* could pick up these languages, if you hadn't learned a programming language by college, it was too late for you. In fact, a Computer Science degree at my college was well-known to be only possible if you already planned on majoring in CS before orientation. It was also not expected for women (or at least women-identifying folks) to succeed in such a technical field. So I continued to play around with these languages, booting into Linux every day and compiling my own programs, knowing that I would have to figure out a "real job" before long.

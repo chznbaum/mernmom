@@ -2,13 +2,16 @@
 layout: post
 title: "When You Hit That Wall"
 date: 2016-07-27 09:17:00 -0500
-image: https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/hitthewall.jpg
+image:
+  feature: /assets/hitthewall.jpg
 categories:
 - code log
 ---
 I keep having to remind myself that I’ve only actually been studying on [Free Code Camp](https://freecodecamp.com) for ten days, in between taking care of kids and other daily necessities.
 
 Sometimes, it’s to ensure I don’t get lured into a sense of hubris. I’ll be flying through tutorials, devouring them as though they were wrapped in bacon.
+
+<!--more-->
 
 ![Free Code Camp Activity Chart: 302 challenges completed](http://chazonabaum.com/images/freecodecampprogress.PNG)  
 Figure 1. Seriously? In ten days?

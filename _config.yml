@@ -14,7 +14,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: MERN Mom
+author: Chazona Baum
+author_image: author.jpg
 email: chazona@chazonabaum.com
+website: http://chazonabaum.com
+logo: white_logo_200.png
 description: > # this means to ignore newlines until "baseurl:"
   When you're a mom in a male-dominated industry, it can sometimes be hard to 
   have someone in your corner or who understands your challenges. I had my 
@@ -25,14 +29,24 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:year/:month/:day/:slug.html
+excerpt_separator: "<!--more-->"
+google_analytics_id: UA-86554564-1
+mailchimp:
+  url: mernmom.us14.list-manage.com/subscribe/post?u=984692c1c2d5096078928ee33&amp;id=f954e2770a
+  call_to_action: Never Miss a Post!
 twitter_username: chznbaum
 github_username:  chznbaum
+linkedin_username: chznbaum
+codepen_username: chznbaum
+freecodecamp_username: chznbaum
 
 # Build settings
 markdown: kramdown
-theme: minima
+kramdown:
+  syntax_highlighter: rouge
 gems:
   - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
+  - ["README.md"]

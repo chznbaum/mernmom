@@ -2,7 +2,8 @@
 layout: post
 title: "The New Coding High School Richmond Area Parents Shouldn't Ignore"
 date: 2016-11-17 07:00:00 -0500
-image: https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/school-bus-1770047_1920.jpg
+image:
+  feature: /assets/school-bus-1770047_1920.jpg
 categories:
 - motherhood
 - news
@@ -14,7 +15,7 @@ tags:
 - public schools
 - students
 ---
-A select group of high school students across the Richmond metro area will soon have the ability to graduate with a wealth of computer science education, skills, and work experience, at least in comparison to their peers. A years-long initiative by Virginia's Region 1 public schools in partnership with local businesses and community colleges, the Richmond Regional School for Innovation, or [CodeRVA](http://coderva.org), will begin teaching rising 9th and 10th graders a unique hybrid curriculum that officials hope will spread throughout the public school systems.
+A select group of high school students across the Richmond metro area will soon have the ability to graduate with a wealth of computer science education, skills, and work experience, at least in comparison to their peers. <!--more-->A years-long initiative by Virginia's Region 1 public schools in partnership with local businesses and community colleges, the Richmond Regional School for Innovation, or [CodeRVA](http://coderva.org), will begin teaching rising 9th and 10th graders a unique hybrid curriculum that officials hope will spread throughout the public school systems.
 
 During the first two years of the program, students will complete most of their high school requirements online, in addition to collaborative projects and in-person interaction with teachers and industry leaders. During the second two years, students will have opportunities to obtain an associate's degree in computer science, industry certifications, and internships with potentially 400 hours of paid experience. Most impressively, each student will be assigned a career coach who will help them create an individualized college and/or career plan. Students will also benefit from mentorship from local partners.
 
