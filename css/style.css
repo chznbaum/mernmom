@@ -386,6 +386,9 @@ Media Queries
 		margin-right: -4px;
 		color: #1E5F86;
 	}
+	.post-text {
+		height: auto;
+	}
 }
 @media screen and (max-width: 965px) {
 	.post-text {
