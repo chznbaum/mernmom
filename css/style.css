@@ -172,7 +172,7 @@ Social Media bar
 }
 .social-list li {
 	font-family: "Source Sans Pro", sans-serif;
-	font-size: 4em;
+	font-size: 3em;
 	text-align: center;
 	color: #444;
 	line-height: 40px;
@@ -210,7 +210,6 @@ Blog Page
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 20px;
-	margin-top: -360px;
 	height: auto;
 	background-color: rgba(0, 0, 0, 0.6);
 	color: #FFF;
@@ -388,12 +387,14 @@ Media Queries
 	}
 	.post-text {
 		height: 300px;
+		margin-top: -360px;
 	}
 }
 @media screen and (max-width: 965px) {
 	.post-text {
-		margin-top: -24px;
 		background-color: #444;
+		margin-top: -40px;
+		padding-top: 10px;
 		opacity: 1;
 	}
 }
