@@ -211,7 +211,7 @@ Blog Page
 	padding-right: 20px;
 	padding-bottom: 20px;
 	margin-top: -360px;
-	height: 300px;
+	height: auto;
 	background-color: rgba(0, 0, 0, 0.6);
 	color: #FFF;
 	opacity: 0.9;
@@ -387,7 +387,7 @@ Media Queries
 		color: #1E5F86;
 	}
 	.post-text {
-		height: auto;
+		height: 300px;
 	}
 }
 @media screen and (max-width: 965px) {
