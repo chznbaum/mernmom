@@ -2,6 +2,7 @@
 layout: post
 title: "Women, Tech, and the Presidency: How We Move On From Here"
 date: 2016-11-10 07:00:00 -0500
+description: "For many of us, whether we stayed up until the early hours of the morning or woke up to news reports, Wednesday brought a solemn sense of shock. For many of us, as mothers and as tech innovators alike, it was hard to juxtapose our modern society with what had just taken place. The world watched in real time with us, questioning what our circumstances would now mean for them."
 image:
   feature: /assets/Trump_CPAC_2011.jpg
 categories:

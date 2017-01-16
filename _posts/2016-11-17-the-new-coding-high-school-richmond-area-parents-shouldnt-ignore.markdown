@@ -2,6 +2,7 @@
 layout: post
 title: "The New Coding High School Richmond Area Parents Shouldn't Ignore"
 date: 2016-11-17 07:00:00 -0500
+description: "A select group of high school students across the Richmond metro area will soon have the ability to graduate with a wealth of computer science education, skills, and work experience, at least in comparison to their peers."
 image:
   feature: /assets/school-bus-1770047_1920.jpg
 categories:

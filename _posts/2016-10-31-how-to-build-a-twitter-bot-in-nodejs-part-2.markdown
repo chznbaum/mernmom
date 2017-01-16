@@ -2,6 +2,7 @@
 layout: post
 title: "How to Build a Twitter Bot in Node.js - Part 2"
 date: 2016-10-31 07:00:00 -0500
+description: "This is the second part of a two-part series on creating a Twitter bot. In the first part, we reviewed setting up Twitter credentials for the bot, ensured we have Node and NPM available, and began working with our directory structure and Twitter API module. In this second part, we'll go over using the API module to tweet, respond to tweets, follow and unfollow, and learn how to make the bot your own. Let's get started!"
 image:
   feature: /assets/Screenshot-from-2016-10-27-01-01-59.png
 categories:

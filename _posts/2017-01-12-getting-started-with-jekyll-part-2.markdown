@@ -2,6 +2,7 @@
 layout: post
 title: "Getting Started with Jekyll - Part 2: Meeting Jekyll's Demands"
 date: 2017-01-12 07:00:00 -0500
+description: "When this left off in Part 1, you had a basic Nginx server running and set up with remote access and a firewall."
 image:
   feature: /assets/Screenshot-from-2017-01-15-23-01-37.png
 categories:

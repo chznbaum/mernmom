@@ -2,6 +2,7 @@
 layout: post
 title: "Get Involved! Forming a Local Coding Group for Growth and Community"
 date: 2016-11-07 07:00:00 -0500
+description: "When learning to code, you're often your own worst enemy. Speedy learning slows to a crawl and you start to wonder if you were cut out to code at all or if you were really an imposter all along. One good way to avoid this self-defeating spiral is to surround yourself with fellow coders as often as you can manage."
 image:
   feature: /assets/startup-849794.jpg
 categories:

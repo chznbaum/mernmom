@@ -2,6 +2,7 @@
 layout: post
 title: "How to Deploy Your Twitter Bot (or Other Worker App) to Heroku"
 date: 2016-11-03 07:00:00 -0500
+description: "Ok, so we recently walked through getting started building a Node.js Twitter bot and then actually putting together functions to make it work. When we left off you had a really cool Twitter bot that acts automatically. Hopefully you've added some functions or features that really make it your own. Problem is, it's not much fun to have a Twitter bot that only works when your terminal is open."
 image:
   feature: /assets/Screenshot-from-2016-10-30-14-12-08.png
 categories:

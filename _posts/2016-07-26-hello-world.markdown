@@ -2,6 +2,7 @@
 layout: post
 title: "Hello World!"
 date: 2016-07-26 14:49:00 -0500
+description: "These two words have been typed countless times as developers take their first steps in new languages. So they should be fitting now, as I begin to chronicle my own path from fledgling coder to full-stack developer. This is the start of what is proving to be a fascinating, if vexing, journey."
 image:
   feature: /assets/nightcomputer.jpg
 categories:

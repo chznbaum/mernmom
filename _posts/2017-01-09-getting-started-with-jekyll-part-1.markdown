@@ -2,6 +2,7 @@
 layout: post
 title: "Getting Started with Jekyll - Part 1: Servers and SSH"
 date: 2017-01-09 07:00:00 -0500
+description: "If you're a developer, there's a good chance you may have heard of static site generators like Jekyll or Ghost. They claim to cut down on a lot of the bloat you find in behemoths like WordPress and simultaneously give you greater control over your site's structure and design."
 image:
   feature: /assets/Screenshot-from-2017-01-15-23-01-37.png
 categories:

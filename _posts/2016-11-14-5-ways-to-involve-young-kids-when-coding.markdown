@@ -2,6 +2,7 @@
 layout: post
 title: "5 Ways to Involve Young Kids When Coding"
 date: 2016-11-14 07:00:00 -0500
+description: "Motherhood is a nonstop guilt trip, and few things cut as deep as not seeming to spend enough time with your kids. Combine that with the time-consuming nature of coding, debugging, and research, and you have a recipe for a stressed-out mom."
 image:
   feature: /assets/child-1073638.jpg
 categories:

@@ -2,6 +2,7 @@
 layout: post
 title: "How to Learn Code as a Mom"
 date: 2016-11-28 12:00:00 -0500
+description: "Learning anything related to computer science is not easy. When you're a parent first, it can often seem like the extra challenges in front of you make it impossible. However, if you know what resources are available, and which are best suited for your family, it is often possible to learn and parent at the same time."
 image:
   feature: /assets/startup-849804_1920.jpg
 categories:

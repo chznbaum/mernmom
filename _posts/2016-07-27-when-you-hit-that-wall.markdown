@@ -2,6 +2,7 @@
 layout: post
 title: "When You Hit That Wall"
 date: 2016-07-27 09:17:00 -0500
+description: "When just starting out with Node.js, piecing together a front- and back-end and successfully deploying the app can be a bit intimidating. A great way to get your feet wet working with Node.js and deploying to Heroku without having a front-end to deal with is by making a Twitter bot. Not only are they incredibly fun, but because they're only logic, they make a great stepping stone to bigger projects."
 image:
   feature: /assets/hitthewall.jpg
 categories:
