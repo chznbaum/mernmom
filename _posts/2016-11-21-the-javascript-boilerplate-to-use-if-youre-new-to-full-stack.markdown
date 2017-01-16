@@ -2,7 +2,7 @@
 layout: post
 title: "The JavaScript Boilerplate to Use if You're New to Full Stack"
 date: 2016-11-21 07:00:00 -0500
-description: "Novice JavaScript developers and those just getting started handling the server side can easily fall into the trap of JavaScript fatigue. With the numerous components that make up a full-stack JavaScript application, aggressive fan-bases, and new tools constantly being hailed as the new "must use" thing, it can be difficult for someone starting out to weed through the hype and figure out exactly what they should learn and use for their first applications."
+description: "Novice JavaScript developers and those just getting started handling the server side can easily fall into the trap of JavaScript fatigue. With the numerous components that make up a full-stack JavaScript application, aggressive fan-bases, and new tools constantly being hailed as the new 'must use' thing, it can be difficult for someone starting out to weed through the hype and figure out exactly what they should learn and use for their first applications."
 image:
   feature: /assets/Screenshot-from-2016-11-21-08-32-57.png
 categories:
