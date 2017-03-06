@@ -1,21 +1,33 @@
 ---
-layout: post
+layout: default
 title: "When You Hit That Wall"
+type: post
+
+navigation: false
 date: 2016-07-27 09:17:00 -0500
-description: "When just starting out with Node.js, piecing together a front- and back-end and successfully deploying the app can be a bit intimidating. A great way to get your feet wet working with Node.js and deploying to Heroku without having a front-end to deal with is by making a Twitter bot. Not only are they incredibly fun, but because they're only logic, they make a great stepping stone to bigger projects."
-image:
-  feature: /assets/hitthewall.jpg
+excerpt: I keep having to remind myself that I’ve only actually been studying on [Free Code Camp](https://freecodecamp.com) for ten days, in between taking care of kids and other daily necessities. Sometimes, it’s to ensure I don’t get lured into a sense of hubris. I’ll be flying through tutorials, devouring them as though they were wrapped in bacon.
 categories:
 - code log
+gradient: 1
+image: hitthewall.jpg
+details: true
+
+author: Chazona Baum
+bio: When you're a mom in a male-dominated industry, it can sometimes be hard to have someone in your corner or who understands your challenges. I had my kids before learning to code, and I started my tech career while they were still pre-school age. I've literally led code meetups with my toddler around my ankles. While our experience may not be identical, I've got your back on this JavaScript journey.
+twitter: "https://twitter.com/chznbaum"
+linkedin: "https://linkedin.com/in/chznbaum"
+
+published: true
 ---
 I keep having to remind myself that I’ve only actually been studying on [Free Code Camp](https://freecodecamp.com) for ten days, in between taking care of kids and other daily necessities.
 
 Sometimes, it’s to ensure I don’t get lured into a sense of hubris. I’ll be flying through tutorials, devouring them as though they were wrapped in bacon.
 
-<!--more-->
-
-![Free Code Camp Activity Chart: 302 challenges completed](http://chazonabaum.com/images/freecodecampprogress.PNG)  
-Figure 1. Seriously? In ten days?
+{% include
+  media-image.html
+  file="freecodecampprogress.PNG"
+  title="Free Code Camp Activity Cart: 302 challenges completed"
+  caption="Seriously? In ten days?" %}
 
 ## Riding That High ##
 
@@ -30,8 +42,11 @@ And I had been racing through tasks and challenges as quickly as I could access 
 
 As I poured through documentation about the recommended API, I could not make sense of how I was supposed to actually use it. And it hit me that I didn’t understand how to implement the API because I didn’t understand enough of the underlying JavaScript. By focusing only on the tutorials and challenges, I was learning at an incredible pace, but I was lacking in areas that would be critical in completing more advanced challenges and algorithms.
 
-![Useless! Empty! Brain!](http://chazonabaum.com/images/uselessemptybrain.gif)  
-Big Hero 6 Captures my sentiment
+{% include
+  media-image.html
+  file="uselessemptybrain.gif"
+  title="Useless! Empty! Brain!"
+  caption="Hiro captures my sentiment" %}
 
 ## Regroup and Diversify ##
 
@@ -48,11 +63,14 @@ In addition to more specific resources, I am also taking advantage of practice t
 
 Of course, different forms of challenge and competition can keep things interesting, so finally I set up an account on [HackerRank](https://hackerrank.com) so I can progress through additional algorithms and participate in contests to show how my skills grow.
 
-![HackerRank 30 Days of Code Challenges, Day 0 Completed](http://chazonabaum.com/images/hackerrankday0.PNG)  
-Figure 2. Always have to start somewhere
+{% include
+  media-image.html
+  file="hackerrankday0.PNG"
+  title="HackerRank 30 Days of Code Challenges, Day 0 Completed"
+  caption="Always have to start somewhere" %}
 
 Needless to say, I’m not nearly ready for even the “Newbie” contests — if you want to feel better about your own progress, I’ll be happy to tell you how I scored. Eventually, I’ll get there, and in the meantime, the challenges and algorithms are helpful in gaining some of the academic knowledge I’m missing out on by not having a computer science degree.
 
 And of course, lastly, I’m going to need to get more involved with other coders: share, comment, and interact as part of a community. Conveniently, Free Code Camp recommends local meetup groups for Coffee and Code and other types of events. The nearest one to me is in a neighboring city 30 minutes away, which is a barrier to attending; FCC recommends having the groups as local as possible, so setting one up for my town will probably be on the docket for tomorrow or the next day. And that’ll provide a great opportunity for some leadership experience.
 
-Have you hit a wall (or many) yet in your coding adventures? How are you adapting to move forward? Feel free to share on [Twitter](https://twitter.com/intent/tweet?text=%40chznbaum&url=http%3A%2F%2Fmernmom.com%2F2016%2F07%2F27%2Fwhen-you-hit-that-wall.html). Clicking that link will open a Twitter prompt directed at me including the link to this article for your convenience.
+Have you hit a wall (or many) yet in your coding adventures? How are you adapting to move forward? Feel free to share in the comments!

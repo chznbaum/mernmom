@@ -1,52 +1,23 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# Site Settings
+baseurl: 		""
+title: 			MERN Mom
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: MERN Mom
-author: Chazona Baum
-author_image: author.jpg
-email: chazona@chazonabaum.com
-website: http://chazonabaum.com
-logo: white_logo_200.png
-description: > # this means to ignore newlines until "baseurl:"
-  When you're a mom in a male-dominated industry, it can sometimes be hard to 
-  have someone in your corner or who understands your challenges. I had my 
-  kids before learning to code, and I started my tech career while they were 
-  still pre-school age. I've literally led code meetups with my toddler around 
-  my ankles. While our experience may not be identical, I've got your back on 
-  this JavaScript journey.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-permalink: /:year/:month/:day/:slug.html
-excerpt_separator: "<!--more-->"
-google_analytics_id: UA-86554564-1
-mailchimp:
-  url: mernmom.us14.list-manage.com/subscribe/post?u=984692c1c2d5096078928ee33&amp;id=f954e2770a
-  call_to_action: Never Miss a Post!
-twitter_username: chznbaum
-github_username:  chznbaum
-linkedin_username: chznbaum
-codepen_username: chznbaum
-freecodecamp_username: chznbaum
+name: 			MERN Mom
+description: 	Life, Kids, and JavaScript
+url: 			"http://mernmom.com"
 
-# Build settings
-markdown: kramdown
-kramdown:
-  syntax_highlighter: rouge
-gems:
-  - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - ["README.md"]
+paginate: 		5
+paginate_path: 	"blog/page:num"
+
+twitter: 		chznbaum
+email: 			chazona@chazonabaum.com
+
+disqus: 		mernmom
+analytics: 		UA-86554564-1
+
+copyright: 		Copyright 2017 <a href="http://chazonabaum.com">Chazona Baum</a>.	
+
+# Build Settings
+permalinks: 	pretty
+
+gems:		[jekyll-paginate]

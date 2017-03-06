@@ -1,26 +1,33 @@
 ---
-layout: post
+layout: default
 title: "The New Coding High School Richmond Area Parents Shouldn't Ignore"
+type: post
+navigation: false
+
 date: 2016-11-17 07:00:00 -0500
-description: "A select group of high school students across the Richmond metro area will soon have the ability to graduate with a wealth of computer science education, skills, and work experience, at least in comparison to their peers."
-image:
-  feature: /assets/school-bus-1770047_1920.jpg
+excerpt: A select group of high school students across the Richmond metro area will soon have the ability to graduate with a wealth of computer science education, skills, and work experience, at least in comparison to their peers.
 categories:
 - motherhood
 - news
-tags:
-- code bootcamps
-- code schools
-- education
-- kids
-- public schools
-- students
+gradient: 1
+image: school-bus-1770047_1920.jpg
+details: true
+
+author: Chazona Baum
+bio: When you're a mom in a male-dominated industry, it can sometimes be hard to have someone in your corner or who understands your challenges. I had my kids before learning to code, and I started my tech career while they were still pre-school age. I've literally led code meetups with my toddler around my ankles. While our experience may not be identical, I've got your back on this JavaScript journey.
+twitter: "https://twitter.com/chznbaum"
+linkedin: "https://linkedin.com/in/chznbaum"
+
+published: true
 ---
-A select group of high school students across the Richmond metro area will soon have the ability to graduate with a wealth of computer science education, skills, and work experience, at least in comparison to their peers. <!--more-->A years-long initiative by Virginia's Region 1 public schools in partnership with local businesses and community colleges, the Richmond Regional School for Innovation, or [CodeRVA](http://coderva.org), will begin teaching rising 9th and 10th graders a unique hybrid curriculum that officials hope will spread throughout the public school systems.
+A select group of high school students across the Richmond metro area will soon have the ability to graduate with a wealth of computer science education, skills, and work experience, at least in comparison to their peers. A years-long initiative by Virginia's Region 1 public schools in partnership with local businesses and community colleges, the Richmond Regional School for Innovation, or [CodeRVA](http://coderva.org), will begin teaching rising 9th and 10th graders a unique hybrid curriculum that officials hope will spread throughout the public school systems.
 
 During the first two years of the program, students will complete most of their high school requirements online, in addition to collaborative projects and in-person interaction with teachers and industry leaders. During the second two years, students will have opportunities to obtain an associate's degree in computer science, industry certifications, and internships with potentially 400 hours of paid experience. Most impressively, each student will be assigned a career coach who will help them create an individualized college and/or career plan. Students will also benefit from mentorship from local partners.
 
-![CodeRVA Logo](https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/CodeRVALogo.png)
+{% include
+  media-image.html
+  file="CodeRVALogo.png"
+  title="CodeRVA Logo" %}
 
 Beginning in the summer of 2017, 8th grade students will have the opportunity to attend a week-long intensive Boot Camp to see if they have the aptitude and interest to do well in computer science.
 
@@ -55,4 +62,4 @@ Thomas Dale High School (Main Campus) Library
 Session I: 5:30-6:30  
 Session II: 6:45-7:45  
 
-Would you take advantage of such a program for your kids? Share your thoughts on [Twitter](https://twitter.com/intent/tweet?text=%40chznbaum&url=http%3A%2F%2Fmernmom.com%2F2016%2F11%2F17%2Fthe-new-coding-high-school-richmond-area-parents-shouldnt-ignore.html). Clicking that link will open a Twitter prompt directed at me including the link to this article for your convenience.
+Would you take advantage of such a program for your kids? Share your thoughts in the comments!

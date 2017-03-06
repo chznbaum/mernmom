@@ -1,21 +1,25 @@
 ---
-layout: post
+layout: default
 title: "How to Deploy Your Twitter Bot (or Other Worker App) to Heroku"
+type: post
+navigation: false
+
 date: 2016-11-03 07:00:00 -0500
-description: "Ok, so we recently walked through getting started building a Node.js Twitter bot and then actually putting together functions to make it work. When we left off you had a really cool Twitter bot that acts automatically. Hopefully you've added some functions or features that really make it your own. Problem is, it's not much fun to have a Twitter bot that only works when your terminal is open."
-image:
-  feature: /assets/Screenshot-from-2016-10-30-14-12-08.png
+excerpt: Ok, so we recently walked through getting started building a Node.js Twitter bot and then actually putting together functions to make it work. When we left off you had a really cool Twitter bot that acts automatically. Hopefully you've added some functions or features that really make it your own. Problem is, it's not much fun to have a Twitter bot that only works when your terminal is open.
 categories:
 - tutorials
-tags:
-- deployment
-- heroku
-- nodejs
-- twitter bot
+gradient: 1
+image: Screenshot-from-2016-10-30-14-12-08.png
+details: true
+
+author: Chazona Baum
+bio: When you're a mom in a male-dominated industry, it can sometimes be hard to have someone in your corner or who understands your challenges. I had my kids before learning to code, and I started my tech career while they were still pre-school age. I've literally led code meetups with my toddler around my ankles. While our experience may not be identical, I've got your back on this JavaScript journey.
+twitter: "https://twitter.com/chznbaum"
+linkedin: "https://linkedin.com/in/chznbaum"
+
+published: true
 ---
 Ok, so we recently walked through getting started building a Node.js Twitter bot and then actually putting together functions to make it work. When we left off you had a really cool Twitter bot that acts automatically. Hopefully you've added some functions or features that really make it your own. Problem is, it's not much fun to have a Twitter bot that only works when your terminal is open.
-
-<!--more-->
 
 So now we're going to take that awesome Twitter bot you made and deploy it to a cloud platform called Heroku. This will enable your bot to always be working in the background, and we're going to do it for free.
 
@@ -67,7 +71,10 @@ Now technically, your Twitter bot has been deployed to Heroku. You'll notice, ho
 
 This can be solved a few ways:
 
-![Heroku web dyno off worker dyno on](https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/Screenshot-from-2016-10-30-14-14-25.png)
+{% include
+  media-image.html
+  file="Screenshot-from-2016-10-30-14-14-25.png"
+  title="Heroku Web Dyno Off, Worker Dyno On" %}
 
 Aside from adjusting it in the online GUI, one method is to create a `Procfile` (no extension, just that). Inside this file, we'll give instructions to Heroku about what this app should be doing:
 
@@ -101,4 +108,4 @@ $ heroku logs
 
 Go ahead and check out your awesome app!
 
-What kind of bot or app did you deploy? Feel free to share on [Twitter](https://twitter.com/intent/tweet?text=%40chznbaum&url=http%3A%2F%2Fmernmom.com%2F2016%2F11%2F03%2Fhow-to-deploy-your-twitter-bot-or-other-worker-app-to-heroku.html). Clicking that link will open a Twitter prompt directed at me including the link to this article for your convenience.
+What kind of bot or app did you deploy? Feel free to share in the comments!

@@ -1,21 +1,25 @@
 ---
-layout: post
+layout: default
 title: "Get Involved! Forming a Local Coding Group for Growth and Community"
+type: post
+navigation: false
+
 date: 2016-11-07 07:00:00 -0500
-description: "When learning to code, you're often your own worst enemy. Speedy learning slows to a crawl and you start to wonder if you were cut out to code at all or if you were really an imposter all along. One good way to avoid this self-defeating spiral is to surround yourself with fellow coders as often as you can manage."
-image:
-  feature: /assets/startup-849794.jpg
+excerpt: When learning to code, you're often your own worst enemy. Speedy learning slows to a crawl and you start to wonder if you were cut out to code at all or if you were really an imposter all along. One good way to avoid this self-defeating spiral is to surround yourself with fellow coders as often as you can manage.
 categories:
 - series
-tags:
-- giving back
-- leadership
-- local groups
-- social coding
+gradient: 1
+image: startup-849794.jpg
+details: true
+
+author: Chazona Baum
+bio: When you're a mom in a male-dominated industry, it can sometimes be hard to have someone in your corner or who understands your challenges. I had my kids before learning to code, and I started my tech career while they were still pre-school age. I've literally led code meetups with my toddler around my ankles. While our experience may not be identical, I've got your back on this JavaScript journey.
+twitter: "https://twitter.com/chznbaum"
+linkedin: "https://linkedin.com/in/chznbaum"
+
+published: true
 ---
 When learning to code, you're often your own worst enemy. Speedy learning slows to a crawl and you start to wonder if you were cut out to code at all or if you were really an imposter all along. One good way to avoid this self-defeating spiral is to surround yourself with fellow coders as often as you can manage.
-
-<!--more-->
 
 Of course, there's no limit to the support you can find online, but there may be times when you really need a person there with you sharing their own struggles, helping you on bug hunting excursions, or to contribute to a project with you. If you don't happen to live right near an existing code group, however, don't despair. We're makers; you can make your own!
 
@@ -29,7 +33,10 @@ I'm not going to claim that I came up with the idea to create a local group all 
 
 Well, Free Code Camp also had a listing of existing Free Code Camp unofficial groups and recommended that those who didn't have a group within 15 - 20 minutes of their home just create their own. The recommended medium was Facebook Groups, largely because it's free to use and an incredible number of people are already using Facebook for other things. So I went on Facebook, followed the [Free Code Camp guide](http://forum.freecodecamp.com/t/how-to-create-a-local-group-for-your-city/19532) and set one up in a matter of minutes.
 
-![Free Code Camp Local Group Screenshot](https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/Screenshot-from-2016-11-01-23-03-55.png)
+{% include
+  media-image.html
+  file="Screenshot-from-2016-11-01-23-03-55.png"
+  title="Free Code Camp Local Group Screenshot" %}
 
 ## A Change of Tactics ##
 
@@ -51,7 +58,10 @@ Instead of building out our website early on, we went with [Mobilize.io](https:/
 
 Meanwhile, I utilized [Tailor Brands](https://www.tailorbrands.com/) to obtain an affordable logo for about $20 and some graphic design materials. Between my own code study, organizing the group, and taking care of my kids, I was having to get a little less DIY with my local group than I would have liked.
 
-![Midlothian Code Logo](https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/logo_white_background.jpg)
+{% include
+  media-image.html
+  file="logo_white_background.jpg"
+  title="Midlothian Code Logo" %}
 
 I also applied for room reservation privileges at my local library, which made our venue situation more secure. Libraries are often a neglected resource, but you should definitely take a look at what your library network offers if you're starting a local group as it provides vital free services you're unlikely to get anywhere else.
 
@@ -67,7 +77,10 @@ I had already reserved a domain name for [Midlothian Code](http://www.midlothian
 
 From there, I pieced together a site that would benefit Midlothian Code while we grow. I'm currently in the process of ensuring its features meet our needs, and once it is done, we will start scheduling and hosting coding workshops. I can't wait to see how the group grows from here.
 
-![Midlothian Code Website Screenshot](https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/Screenshot-from-2016-11-06-22-11-10.png)
+{% include
+  media-image.html
+  file="Screenshot-from-2016-11-06-22-11-10.png"
+  title="Midlothian Code Website Screenshot" %}
 
 ## Takeaways ##
 
@@ -77,4 +90,4 @@ The attention that Meetup gives groups is valuable, although I would limit our u
 
 Building a site, meanwhile, is possible almost for free while the group is still small (I'm only paying for domain, inexpensive hosting, and email). The benefit of having one primary place to direct members and have them congregate can't be overstated. Once members can be organized, that's when they can really get to work on coded-from-scratch projects that can be highlighted on our site.
 
-Are you thinking about starting a local coding group where you live? Share your concerns  on [Twitter](https://twitter.com/intent/tweet?text=%40chznbaum&url=http%3A%2F%2Fmernmom.com%2F2016%2F11%2F07%2Fget-involved-forming-a-local-coding-group-for-growth-and-community.html), and I'd love to help you out. Clicking that link will open a Twitter prompt directed at me including the link to this article for your convenience.
+Are you thinking about starting a local coding group where you live? Share your concerns in the comments!

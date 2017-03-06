@@ -1,39 +1,38 @@
 ---
-layout: post
+layout: default
 title: "How to Learn Code as a Mom"
+type: post
+navigation: false
+
 date: 2016-11-28 12:00:00 -0500
-description: "Learning anything related to computer science is not easy. When you're a parent first, it can often seem like the extra challenges in front of you make it impossible. However, if you know what resources are available, and which are best suited for your family, it is often possible to learn and parent at the same time."
-image:
-  feature: /assets/startup-849804_1920.jpg
+excerpt: Learning anything related to computer science is not easy. When you're a parent first, it can often seem like the extra challenges in front of you make it impossible. However, if you know what resources are available, and which are best suited for your family, it is often possible to learn and parent at the same time.
 categories:
 - lists
 - motherhood
 - resources
 - series
 - women in tech
-tags:
-- apprenticeships
-- beginners
-- code bootcamps
-- code schools
-- education
-- how to learn code as a mom
-- internships
-- kids
-- self teaching
-- students
-- university
-- working moms
+gradient: 1
+image: startup-849804_1920.jpg
+details: true
+
+author: Chazona Baum
+bio: When you're a mom in a male-dominated industry, it can sometimes be hard to have someone in your corner or who understands your challenges. I had my kids before learning to code, and I started my tech career while they were still pre-school age. I've literally led code meetups with my toddler around my ankles. While our experience may not be identical, I've got your back on this JavaScript journey.
+twitter: "https://twitter.com/chznbaum"
+linkedin: "https://linkedin.com/in/chznbaum"
+
+published: true
 ---
 Learning anything related to computer science is not easy. When you're a parent first, it can often seem like the extra challenges in front of you make it impossible. However, if you know what resources are available, and which are best suited for your family, it is often possible to learn and parent at the same time.
-
-<!--more-->
 
 For parents and non-parents alike, there are four main paths you can take to learn code: the traditional track, bootcamps, apprenticeships and internships, and the self-taught track. Over a five-part series, we will look at each of these paths, looking at focal points of importance to moms, and subsequently look at detailed lists of options within each track.
 
 ## The Traditional Track ##
 
-![University Building](https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/architecture-1122359_1920.jpg)
+{% include
+  media-image.html
+  file="architecture-1122359_1920.jpg"
+  title="University Building" %}
 
 Typically when someone has entered a computer science discipline, it has been following graduation from a university program. While self-taught developers are exceptionally common, a four-year degree is still what many employers expect.
 
@@ -57,7 +56,10 @@ Check this space coming soon for a detailed overview of a variety of specific un
 
 ## Bootcamps ##
 
-![Student Studying on Laptop with Dev Stickers](https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/photo-1456406644174-8ddd4cd52a06.jpg)
+{% include
+  media-image.html
+  file="photo-1456406644174-8ddd4cd52a06.jpg"
+  title="Student Studying on Laptop with Dev Stickers" %}
 
 Bootcamps get a lot of attention these days, and it's easy to understand why. With claims that you can learn to code in 3-6 months and come out with a six-figure salary, they've been raising eyebrows and turning heads for years.
 
@@ -81,7 +83,10 @@ Check this space coming soon for a detailed overview of a variety of bootcamp pr
 
 ## Apprenticeships and Internships ##
 
-![Team of Interns](https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/language-school-834138_1920.jpg)
+{% include
+  media-image.html
+  file="language-school-834138_1920.jpg"
+  title="Team of Interns" %}
 
 Outside of the trades, apprenticeships aren't terribly well-known. In tech, apprenticeships are often almost like a paid bootcamp. Working with other apprentices and more experienced developers, you build projects for various companies, increasing your own skills and learning from mentors.
 
@@ -99,7 +104,10 @@ Check this space coming soon for a detailed overview of a variety of apprentices
 
 ## The Self-Taught Programmer ##
 
-![Student at Laptop with Textbook and Coffee](https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/student-849825_1920.jpg)
+{% include
+  media-image.html
+  file="student-849825_1920.jpg"
+  title="Student at Laptop with Textbook and Coffee" %}
 
 Of course, while each of the above items can help you learn and get into a career more efficiently, none are ultimately necessary to learn code. It is absolutely possible to teach yourself and get a job as a self-taught developer.
 
@@ -109,4 +117,4 @@ Perhaps the best way to go about teaching yourself to code is to find a learning
 
 Check this space coming soon for a detailed overview of a variety of options for teaching yourself.
 
-Questions, comments or concerns? Continue the conversation on [Twitter](https://twitter.com/intent/tweet?text=%40chznbaum&url=http%3A%2F%2Fmernmom.com%2F2016%2F11%2F28%2Fhow-to-learn-code-as-a-mom.html). Clicking that link will open a Twitter prompt directed at me including the link to this article for your convenience.
+Questions, comments or concerns? Continue the conversation in the comments!

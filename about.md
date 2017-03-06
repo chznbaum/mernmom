@@ -1,5 +1,14 @@
 ---
-layout: about
+
+layout:			default
+title:  		About Chazona
+type:			page
+navigation: 	true
+
+date:   		2014-05-08
+excerpt: 		My name is Chazona Baum. I'm 28, and if you had asked me at 18 if I would end up heading down a full-stack web development path, I might have given you a look.
+gradient: 		1
+
 ---
 My name is Chazona Baum. I'm 28, and if you had asked me at 18 if I would end up heading down a full-stack web development path, I might have given you a look.
 

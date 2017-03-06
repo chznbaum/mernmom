@@ -1,23 +1,25 @@
 ---
-layout: post
+layout: default
 title: "Getting Started with Jekyll - Part 2: Meeting Jekyll's Demands"
+type: post
+navigation: false
+
 date: 2017-01-12 07:00:00 -0500
-description: "When this left off in Part 1, you had a basic Nginx server running and set up with remote access and a firewall."
-image:
-  feature: /assets/Screenshot-from-2017-01-15-23-01-37.png
+excerpt: When this left off in Part 1, you had a basic Nginx server running and set up with remote access and a firewall. So now that you have this awesome server, you should put some stuff on it.
 categories:
 - tutorials
-tags:
-- blogging
-- capistrano
-- jekyll
-- nginx
-- ruby
+gradient: 1
+image: Screenshot-from-2017-01-15-23-01-37.png
+details: true
+
+author: Chazona Baum
+bio: When you're a mom in a male-dominated industry, it can sometimes be hard to have someone in your corner or who understands your challenges. I had my kids before learning to code, and I started my tech career while they were still pre-school age. I've literally led code meetups with my toddler around my ankles. While our experience may not be identical, I've got your back on this JavaScript journey.
+twitter: "https://twitter.com/chznbaum"
+linkedin: "https://linkedin.com/in/chznbaum"
+
 published: true
 ---
 When this left off in [Part 1](http://mernmom.com/2017/01/09/getting-started-with-jekyll-part-1.html), you had a basic Nginx server running and set up with remote access and a firewall.
-
-<!--more-->
 
 So now that you have this awesome server, you should put some stuff on it.
 
@@ -73,7 +75,10 @@ $ jekyll serve
 
 This will generate and serve a basic Jekyll blog locally. Check it out! Go into your browser to `localhost:4000`, and you should see something like the following:
 
-![Jekyll Blog Demo Site](https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/Screenshot-from-2017-01-04-23-08-31.png)
+{% include 
+  media-image.html
+  file="Screenshot-from-2017-01-04-23-08-31.png"
+  title="Jekyll Blog Demo Site" %}
 
 When you're done, you're going to see that when you enter our server's address. To do that, you're going to need to configure a few things.
 
@@ -539,10 +544,13 @@ $ cap production deploy
 
 Open your browser window and type your server's address. You should see this:
 
-![Jekyll Blog Demo Site](https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/Screenshot-from-2017-01-04-23-08-31.png)
+{% include
+  media-image.html
+  file="Screenshot-from-2017-01-04-23-08-31.png"
+  title="Jekyll Blog Demo Site" %}
 
 If you did, great! You set up your Jekyll site to push your local content to your server!
 
 You're finished for today; on Monday you'll learn more about updating and deploying changes, as well as getting familiar with Jekyll's filesystem! Want something to do in the meantime? If you set up your domain name last time, here's a useful [guide](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-16-04) by [Mitchell Anicas](https://twitter.com/thisismitch) on securing your server with a free [Lets Encypt](https://letsencrypt.org/) SSL certificate.
 
-Questions, comments or concerns? Continue the conversation on [Twitter](https://twitter.com/intent/tweet?text=%40chznbaum&url=http%3A%2F%2Fmernmom.com%2F2017%2F01%2F12%2Fgetting-started-with-jekyll-part-2.html). Clicking that link will open a Twitter prompt directed at me including the link to this article for your convenience.
+Questions, comments or concerns? Continue the conversation in the comments!

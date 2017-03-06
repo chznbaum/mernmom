@@ -1,0 +1,20 @@
+---
+
+layout:     default
+title:      MERN Mom
+type:       home
+navigation: true
+
+date:       2014-05-08
+excerpt:    I'm Chazona, a self-taught front-end developer with diverse experiences in industries ranging from food service to veterinary medicine to insurance. My two young children help shape my perspective, and drive me to create experiences that are accessible, friendly, and with a hint of magic.<a href="/about.html" title="Continue" class="more">Continue</a>
+gradient:   1
+
+---
+
+<h2>Posts</h2>
+
+{% for post in paginator.posts %}
+
+  {% include summary.html %}
+  
+{% endfor %}

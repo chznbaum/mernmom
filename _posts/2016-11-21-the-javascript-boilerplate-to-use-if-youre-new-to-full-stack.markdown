@@ -1,20 +1,25 @@
 ---
-layout: post
+layout: default
 title: "The JavaScript Boilerplate to Use if You're New to Full Stack"
+type: post
+navigation: false
+
 date: 2016-11-21 07:00:00 -0500
-description: "Novice JavaScript developers and those just getting started handling the server side can easily fall into the trap of JavaScript fatigue. With the numerous components that make up a full-stack JavaScript application, aggressive fan-bases, and new tools constantly being hailed as the new 'must use' thing, it can be difficult for someone starting out to weed through the hype and figure out exactly what they should learn and use for their first applications."
-image:
-  feature: /assets/Screenshot-from-2016-11-21-08-32-57.png
+excerpt: Novice JavaScript developers and those just getting started handling the server side can easily fall into the trap of JavaScript fatigue. With the numerous components that make up a full-stack JavaScript application, aggressive fan-bases, and new tools constantly being hailed as the new 'must use' thing, it can be difficult for someone starting out to weed through the hype and figure out exactly what they should learn and use for their first applications.
 categories:
 - resources
-tags:
-- back end
-- beginners
-- clementinejs
-- nodejs
-- npm
+gradient: 1
+image: Screenshot-from-2016-11-21-08-32-57.png
+details: true
+
+author: Chazona Baum
+bio: When you're a mom in a male-dominated industry, it can sometimes be hard to have someone in your corner or who understands your challenges. I had my kids before learning to code, and I started my tech career while they were still pre-school age. I've literally led code meetups with my toddler around my ankles. While our experience may not be identical, I've got your back on this JavaScript journey.
+twitter: "https://twitter.com/chznbaum"
+linkedin: "https://linkedin.com/in/chznbaum"
+
+published: true
 ---
-Novice JavaScript developers and those just getting started handling the server side can easily fall into the trap of JavaScript fatigue. With the numerous components that make up a full-stack JavaScript application, aggressive fan-bases, and new tools constantly being hailed as the new "must use" thing, it can be difficult for someone starting out to weed through the hype and figure out exactly what they should learn and use for their first applications.<!--more--> When they come across frameworks and boilerplates that are supposed to make things easier, new developers often find that they need to conquer a mountain of new information before they can even attempt them.
+Novice JavaScript developers and those just getting started handling the server side can easily fall into the trap of JavaScript fatigue. With the numerous components that make up a full-stack JavaScript application, aggressive fan-bases, and new tools constantly being hailed as the new "must use" thing, it can be difficult for someone starting out to weed through the hype and figure out exactly what they should learn and use for their first applications. When they come across frameworks and boilerplates that are supposed to make things easier, new developers often find that they need to conquer a mountain of new information before they can even attempt them.
 
 Enter [Clementine.js](http://www.clementinejs.com): a relatively recent addition, developed by [Blake Johnston](http://twitter.com/johnstonbl01) in 2015. This boilerplate takes simplicity to the extreme, and is easily one of the lightest of its kind.
 
@@ -28,4 +33,4 @@ Will this be the framework you use for every project you ever make? Absolutely n
 
 Like what Blake has done with Clementine.js? Consider [contributing](http://www.clementinejs.com/developers/contributing.html) to the project. As with other open-source projects, it can only survive with the help of meaningful contributions.
 
-What are you building today? Continue the conversation on [Twitter](https://twitter.com/intent/tweet?text=%40chznbaum&url=http%3A%2F%2Fmernmom.com%2F2016%2F11%2F21%2Fthe-javascript-boilerplate-to-use-if-youre-new-to-full-stack.html). Clicking that link will open a Twitter prompt directed at me including the link to this article for your convenience.
+What are you building today? Continue the conversation in the comments!

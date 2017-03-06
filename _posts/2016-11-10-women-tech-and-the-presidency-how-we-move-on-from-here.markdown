@@ -1,21 +1,27 @@
 ---
-layout: post
+layout: default
 title: "Women, Tech, and the Presidency: How We Move On From Here"
+type: post
+navigation: false
+
 date: 2016-11-10 07:00:00 -0500
-description: "For many of us, whether we stayed up until the early hours of the morning or woke up to news reports, Wednesday brought a solemn sense of shock. For many of us, as mothers and as tech innovators alike, it was hard to juxtapose our modern society with what had just taken place. The world watched in real time with us, questioning what our circumstances would now mean for them."
-image:
-  feature: /assets/Trump_CPAC_2011.jpg
+excerpt: For many of us, whether we stayed up until the early hours of the morning or woke up to news reports, Wednesday brought a solemn sense of shock. For many of us, as mothers and as tech innovators alike, it was hard to juxtapose our modern society with what had just taken place. The world watched in real time with us, questioning what our circumstances would now mean for them.
 categories:
 - motherhood
 - news
 - women in tech
-tags:
-- election
-- leadership
+gradient: 1
+image: Trump_CPAC_2011.jpg
+details: true
+
+author: Chazona Baum
+bio: When you're a mom in a male-dominated industry, it can sometimes be hard to have someone in your corner or who understands your challenges. I had my kids before learning to code, and I started my tech career while they were still pre-school age. I've literally led code meetups with my toddler around my ankles. While our experience may not be identical, I've got your back on this JavaScript journey.
+twitter: "https://twitter.com/chznbaum"
+linkedin: "https://linkedin.com/in/chznbaum"
+
+published: true
 ---
 For many of us, whether we stayed up until the early hours of the morning or woke up to news reports, Wednesday brought a solemn sense of shock. For many of us, as mothers and as tech innovators alike, it was hard to juxtapose our modern society with what had just taken place. The world watched in real time with us, questioning what our circumstances would now mean for them.
-
-<!--more-->
 
 While telling everyone that everything will be okay because our country has been resilient through a painful history does little good, as many people will suffer if Trump is true to his campaign, the important thing to bear in mind is that it also does little good to panic.
 
@@ -73,4 +79,4 @@ Ultimately, while our path forward may oscillate more than we would like, in the
 
 > Believe it or not, I still believe in the good that's in people, so I still have hope that things will not be as terrifying as they sound. - [Sara Soueidan](https://sarasoueidan.com)
 
-Questions, comments or concerns? Continue the conversation on [Twitter](https://twitter.com/intent/tweet?text=%40chznbaum&url=http%3A%2F%2Fmernmom.com%2F2016%2F11%2F10%2Fwomen-tech-and-the-presidency-how-we-move-on-from-here.html). Clicking that link will open a Twitter prompt directed at me including the link to this article for your convenience.
+Questions, comments or concerns? Continue the conversation in the comments!

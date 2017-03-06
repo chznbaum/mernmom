@@ -1,21 +1,25 @@
 ---
-layout: post
+layout: default
 title: "How to Build a Twitter Bot in Node.js - Part 1"
+type: post
+navigation: false
+
 date: 2016-10-26 07:00:00 -0500
-description: "When just starting out with Node.js, piecing together a front- and back-end and successfully deploying the app can be a bit intimidating. A great way to get your feet wet working with Node.js and deploying to Heroku without having a front-end to deal with is by making a Twitter bot. Not only are they incredibly fun, but because they're only logic, they make a great stepping stone to bigger projects."
-image:
-  feature: /assets/Screenshot-from-2016-10-27-01-01-59.png
+excerpt: When just starting out with Node.js, piecing together a front- and back-end and successfully deploying the app can be a bit intimidating. A great way to get your feet wet working with Node.js and deploying to Heroku without having a front-end to deal with is by making a Twitter bot. Not only are they incredibly fun, but because they're only logic, they make a great stepping stone to bigger projects.
 categories:
 - tutorials
-tags:
-- nodejs
-- npm
-- twit
-- twitter bot
+gradient: 1
+image: Screenshot-from-2016-10-27-01-01-59.png
+details: true
+
+author: Chazona Baum
+bio: When you're a mom in a male-dominated industry, it can sometimes be hard to have someone in your corner or who understands your challenges. I had my kids before learning to code, and I started my tech career while they were still pre-school age. I've literally led code meetups with my toddler around my ankles. While our experience may not be identical, I've got your back on this JavaScript journey.
+twitter: "https://twitter.com/chznbaum"
+linkedin: "https://linkedin.com/in/chznbaum"
+
+published: true
 ---
 When just starting out with Node.js, piecing together a front- and back-end and successfully deploying the app can be a bit intimidating. A great way to get your feet wet working with Node.js and deploying to Heroku without having a front-end to deal with is by making a Twitter bot. Not only are they incredibly fun, but because they're only logic, they make a great stepping stone to bigger projects.
-
-<!--more-->
 
 In this two part series, I'll walk you through creating an interactive Twitter bot step by step, with examples from my own bot. My example bot, called [Mom Bot](https://twitter.com/the_mother_bot), follows and unfollows users independently and scans tweets and @replies so it can respond accordingly. The source code and documentation for my bot can be viewed in its entirety [here](https://github.com/chznbaum/the-mom-bot).
 
@@ -27,21 +31,33 @@ First things first: please don't use your primary Twitter account for this. Ther
 
 Once you've created an account for your bot, head over to the [Twitter Developers](https://dev.twitter.com) page. This is the place for documentation on making all kinds of Twitter apps. In the navigation bar, navigate to "My Apps."
 
-![Twitter Developers Navigation and Header](https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/Screenshot-from-2016-10-27-00-38-04.png)
+{% include
+  media-image.html
+  file="Screenshot-from-2016-10-27-00-38-04.png"
+  title="Twitter Developers Navigation and Header" %}
 
 Log in as your bot if you aren't already, and click to "Create an Application." You can name your application anything you like, but try to keep your name and description relevant to your bot. Your website can be anything; my suggestion is your repository URL for the bot on GitHub. Read and accept the Twitter Developer Agreement and click to "Create your Twitter Application."
 
-![Create an Application Form](https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/create_an_application.jpg)
+{% include
+  media-image.html
+  file="create_an_application.jpg"
+  title="Create an Application Form" %}
 
 From there, you'll see several tabs of information and settings. The only one that matters to us for this bot is the "Keys and Access Tokens" tab.
 
-![Keys and Access Tokens Tab](https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/keys_and_access_tab.jpg)
+{% include
+  media-image.html
+  file="keys_and_access_tab.jpg"
+  title="Keys and Access Tokens Tab" %}
 
 Go ahead and generate your Access Token and Access Token Secret, and then leave this window open; we'll need the four codes on this page in just a few minutes.
 
 ## Node.js and NPM ##
 
-![Node JS](https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/Node.js_logo.png)
+{% include
+  media-image.html
+  file="Node.js_logo.png"
+  title="Node JS Logo" %}
 
 ### Linux ###
 
@@ -127,7 +143,10 @@ $ npm install twit --save
 
 That `--save` term will include the module in the dependencies of your `package.json` file.
 
-![NPM Twit Module](https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/Screenshot-from-2016-10-27-01-00-43.png)
+{% include
+  media-image.html
+  file="Screenshot-from-2016-10-27-01-00-43.png"
+  title="NPM Twit Module" %}
 
 Of course, in order for your bot to do anything with a Twitter account, it needs to authenticate. You'll need to create a `config.js` file to hold your API keys because you *don't* want them to be in your main logic file. Remember the Twitter screen with the four codes? Enter them in the `config.js` file like this:
 
@@ -153,4 +172,4 @@ The last two lines get you set up to start listening to your account's Twitter s
 
 When you're ready to start piecing this bot together, go ahead to Part 2. In the meantime, feel free to get familiar with the Twitter API module we're using, [Twit](https://github.com/ttezel/twit).
 
-Questions? Ask them on [Twitter](https://twitter.com/intent/tweet?text=%40chznbaum&url=http%3A%2F%2Fmernmom.com%2F2016%2F10%2F26%2Fhow-to-build-a-twitter-bot-in-nodejs-part-1.html). Clicking that link will open a Twitter prompt directed at me including the link to this article for your convenience.
+Questions? Ask them in the comments!

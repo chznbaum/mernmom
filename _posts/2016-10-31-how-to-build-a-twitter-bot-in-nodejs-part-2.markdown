@@ -1,21 +1,25 @@
 ---
-layout: post
+layout: default
 title: "How to Build a Twitter Bot in Node.js - Part 2"
+type: post
+navigation: false
+
 date: 2016-10-31 07:00:00 -0500
-description: "This is the second part of a two-part series on creating a Twitter bot. In the first part, we reviewed setting up Twitter credentials for the bot, ensured we have Node and NPM available, and began working with our directory structure and Twitter API module. In this second part, we'll go over using the API module to tweet, respond to tweets, follow and unfollow, and learn how to make the bot your own. Let's get started!"
-image:
-  feature: /assets/Screenshot-from-2016-10-27-01-01-59.png
+excerpt: This is the second part of a two-part series on creating a Twitter bot. In the first part, we reviewed setting up Twitter credentials for the bot, ensured we have Node and NPM available, and began working with our directory structure and Twitter API module. In this second part, we'll go over using the API module to tweet, respond to tweets, follow and unfollow, and learn how to make the bot your own. Let's get started!
 categories:
 - tutorials
-tags:
-- nodejs
-- npm
-- twit
-- twitter bot
+gradient: 1
+image: Screenshot-from-2016-10-27-01-01-59.png
+details: true
+
+author: Chazona Baum
+bio: When you're a mom in a male-dominated industry, it can sometimes be hard to have someone in your corner or who understands your challenges. I had my kids before learning to code, and I started my tech career while they were still pre-school age. I've literally led code meetups with my toddler around my ankles. While our experience may not be identical, I've got your back on this JavaScript journey.
+twitter: "https://twitter.com/chznbaum"
+linkedin: "https://linkedin.com/in/chznbaum"
+
+published: true
 ---
 This is the second part of a two-part series on creating a Twitter bot. In the first part, we reviewed setting up Twitter credentials for the bot, ensured we have Node and NPM available, and began working with our directory structure and Twitter API module. In this second part, we'll go over using the API module to tweet, respond to tweets, follow and unfollow, and learn how to make the bot your own. Let's get started!
-
-<!--more-->
 
 ## Tweeting ##
 
@@ -188,7 +192,10 @@ Because of Mom Bot's "personality" she will scan all tweets issued by followers 
 
 In addition, she also scans @replies sent to her to see if they have any phrases set as unfollow-triggers. If she receives one, she will send a response that she will unfollow the user.
 
-![Mom Bot Unfollow Tweet](https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/unfollow_screen.jpg)
+{% include
+  media-image.html
+  file="unfollow_screen.jpg"
+  title="Mom Bot Unfollow Tweet" %}
 
 Of course, in my actual bot's code, I have a function randomizing the responses Mom Bot gives so that she's not constantly repeating herself. If you would like an example of the full code, you can always check out the source [here](https://github.com/chznbaum/the-mom-bot).
 
@@ -266,7 +273,10 @@ function tweetIt(txt) { // Function to send tweets
 
 So here we've added an event listener to listen for follow events, which will trigger our `followed()` function. From there we check that the user doing the follow wasn't the bot, similar to how we checked tweets. If the event passes our check, the bot will follow the user and print an error if one is thrown.
 
-![Mom Bot follow tweet](https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/follow_screen.jpg)
+{% include
+  media-image.html
+  file="follow_screen.jpg"
+  title="Mom Bot Follow Tweet" %}
 
 Let's use what we've learned to actually unfollow the users we tweeted that we would earlier:
 
@@ -547,12 +557,18 @@ function randomSaying(sayingList) { // Function to randomize the expression to u
 }
 ~~~
 
-![Mom Bot cheer up tweet](https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/cheer_up_screen.jpg)
+{% include
+  media-image.html
+  file="cheer_up_screen.jpg"
+  title="Mom Bot Cheer Up Tweet" %}
 
-![Mom Bot proud tweet](https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/proud_screen.jpg)
+{% include
+  media-image.html
+  file="proud_screen.jpg"
+  title="Mom Bot Proud Tweet" %}
 
 Go ahead and take some time to think about what kinds of things you would like your bot to do and how you might implement that logic.
 
 Enjoy learning things visually? [Daniel Shiffman](http://shiffman.net/), creator of Coding Rainbow has a fantastic [YouTube video series](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6atTSxoRiVnSuOn6JHnq2yV) you should check out that helped me a great deal with Twitter bots. If you feel extra awesome, you can help support his work on [Patreon](https://www.patreon.com/codingrainbow) or buy one of his books, [The Nature of Code: Simulating Natural Systems with Processing](https://www.amazon.com/gp/product/0985930802) or [Learning Processing, Second Edition: A Beginner's Guide to Programming Images, Animation, and Interaction](https://www.amazon.com/gp/product/0123944430).
 
-Let me know what kind of bot you've made, share it so I can follow it, or ask questions on [Twitter](https://twitter.com/intent/tweet?text=%40chznbaum&url=http%3A%2F%2Fmernmom.com%2F2016%2F10%2F31%2Fhow-to-build-a-twitter-bot-in-nodejs-part-2.html). Clicking that link will open a Twitter prompt directed at me including the link to this article for your convenience.
+Let me know what kind of bot you've made, share it so I can follow it, or ask questions in the comments!

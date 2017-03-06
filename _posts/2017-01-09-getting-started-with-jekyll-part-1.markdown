@@ -1,23 +1,25 @@
 ---
-layout: post
+layout: default
 title: "Getting Started with Jekyll - Part 1: Servers and SSH"
+type: post
+navigation: false
+
 date: 2017-01-09 07:00:00 -0500
-description: "If you're a developer, there's a good chance you may have heard of static site generators like Jekyll or Ghost. They claim to cut down on a lot of the bloat you find in behemoths like WordPress and simultaneously give you greater control over your site's structure and design."
-image:
-  feature: /assets/Screenshot-from-2017-01-15-23-01-37.png
+excerpt: If you're a developer, there's a good chance you may have heard of static site generators like Jekyll or Ghost. They claim to cut down on a lot of the bloat you find in behemoths like WordPress and simultaneously give you greater control over your site's structure and design.
 categories:
 - tutorials
-tags:
-- blogging
-- capistrano
-- jekyll
-- nginx
-- ruby
+gradient: 1
+image: Screenshot-from-2017-01-15-23-01-37.png
+details: true
+
+author: Chazona Baum
+bio: When you're a mom in a male-dominated industry, it can sometimes be hard to have someone in your corner or who understands your challenges. I had my kids before learning to code, and I started my tech career while they were still pre-school age. I've literally led code meetups with my toddler around my ankles. While our experience may not be identical, I've got your back on this JavaScript journey.
+twitter: "https://twitter.com/chznbaum"
+linkedin: "https://linkedin.com/in/chznbaum"
+
 published: true
 ---
 If you're a developer, there's a good chance you may have heard of static site generators like [Jekyll](https://jekyllrb.com/) or [Ghost](https://ghost.org/). They claim to cut down on a lot of the bloat you find in behemoths like WordPress and simultaneously give you greater control over your site's structure and design.
-
-<!--more-->
 
 For those very reasons, I have recently migrated my existing WordPress blog over to Jekyll. While WordPress is a massively useful tool for sites that require a lot of features, it's simply unnecessary for a simple blog.
 
@@ -35,7 +37,10 @@ To follow along with this tutorial, you will need a server or VPS with *root* ac
 
 To start with, you're going to need to do some basic setup of your server. In this tutorial, we're using Ubuntu 16.04, which Digital Ocean and others VPS providers make easy to install while creating your server. Once you receive your root login information (likely by email), log into your VPS using SSH on your console. Grab your server's *IP address*, a series of four or six numbers separated by periods that tells your browser where to find your server. For Digital Ocean, this can be found on the `Droplets` page like this:
 
-![Droplets: Name, IP Address, Created, Tags](https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/DropletsScreenshot.png)
+{% include
+  media-image.html
+  file="DropletsScreenshot.png"
+  title="Droplets: Name, IP Address, Created, Tags" %}
 
 You should type something like the following, filling in your server's IP address in place of the zeros:
 
@@ -243,10 +248,13 @@ $ systemctl status nginx
 
 You'll get a detailed output, but the piece you want to look for is `Active: active (running) since`. Just to be sure, go ahead and see if you get Nginx's default landing page. In your browser window's navigation bar, type your server's IP address (should look like `00.00.00.00`) and hit `enter`. You should see something that looks like this:
 
-![Welcome to nginx!](https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/nginx_landing_page.png)
-
+{% include
+  media-image.html
+  file="nginx_landing_page.png"
+  title="Welcome to nginx!" %}
+  
 If you did, great! Your server is working correctly.
 
 We're finished for today, in [Part 2](http://mernmom.com/2017/01/12/getting-started-with-jekyll-part-2.html) we'll get all the dependencies needed and install Jekyll, and Monday we'll get the blog posts and changes deployed! Want something to do in the meantime? If you have Digital Ocean, here's a useful [guide](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-host-name-with-digitalocean) by [Etel Sverdlov](https://twitter.com/etelsverdlov) on setting up your domain/hostname on your server.
 
-Questions, comments or concerns? Continue the conversation on [Twitter](https://twitter.com/intent/tweet?text=%40chznbaum&url=http%3A%2F%2Fmernmom.com%2F2017%2F01%2F09%2Fgetting-started-with-jekyll-part-1.html). Clicking that link will open a Twitter prompt directed at me including the link to this article for your convenience.
+Questions, comments or concerns? Continue the conversation in the comments!

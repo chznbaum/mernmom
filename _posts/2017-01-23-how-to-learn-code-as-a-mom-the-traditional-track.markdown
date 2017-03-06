@@ -1,22 +1,26 @@
 ---
-layout: post
+layout: default
 title: "How to Learn Code as a Mom: The Traditional Track"
+type: post
+navigation: false
+
 date: 2017-01-23 12:00:00 -0500
-image: https://raw.githubusercontent.com/chznbaum/mernmom/master/assets/architecture-1122359_1920.jpg
+excerpt: Motherhood doesn't mean a traditional four-year computer science degree is out of the question, though it does add challenges. Here are some universities that at the minimum offer some form of support for students with children.
 categories:
 - lists
 - motherhood
 - resources
 - series
 - women in tech
-tags:
-- code schools
-- education
-- how to learn code as a mom
-- kids
-- public schools
-- students
-- university
+gradient: 1
+image: architecture-1122359_1920.jpg
+details: true
+
+author: Chazona Baum
+bio: When you're a mom in a male-dominated industry, it can sometimes be hard to have someone in your corner or who understands your challenges. I had my kids before learning to code, and I started my tech career while they were still pre-school age. I've literally led code meetups with my toddler around my ankles. While our experience may not be identical, I've got your back on this JavaScript journey.
+twitter: "https://twitter.com/chznbaum"
+linkedin: "https://linkedin.com/in/chznbaum"
+
 published: false
 ---
 Motherhood doesn't mean a traditional four-year computer science degree is out of the question, though it does add challenges. Here are some universities that at the minimum offer some form of support for students with children.
